@@ -1,0 +1,12 @@
+install jdk:
+sudo pacman -S jdk8-openjdk 
+it will install:
+java-environment-common-3-1  java-runtime-common-3-1
+             jre8-openjdk-8.u144-1  jre8-openjdk-headless-8.u144-1
+             jdk8-openjdk-8.u144-1
+             
+ confirm it install:
+ archlinux-java status
+or
+java -version
+
