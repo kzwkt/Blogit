@@ -39,6 +39,33 @@ restart the service and read the tor status:
 sudo systemctl restart tor.service
 systemctl status tor.service
 
+ if you still cannot connect to tor you have to get anothr obfs3 bridge or install obfs4proxy package and get obfs4 bridges.
+ sudo pacman -S obfs4proxy
  
+ restart the service and see the log:
+ sudo systemctl restart tor.service
+systemctl status tor.service
+
+try and try until you connect :)
+
+firefox extenstion:
+ you can install foxyproxy and set the patterns.
+ 
+ use tor in http mode:
+ install polipo:
+ sudo pacman -S polipo
+ 
+ go to config file:
+ sudo vim /etc/polipo/config
+ 
+ add these lines(or uncomment theme)
+ socksParentProxy = "localhost:9050"
+socksProxyType = socks5
+
+restart the polipo service:
+sudo systemctl restart polipo.service
+
+to use http and https install privoxy:
+sudo pacman -S privoxy
 
  
