@@ -24,7 +24,7 @@
 ۱-دانلود ایزو از طریق تورنت(توصیه سایت رسمی و خود من استفاده از این روش هست..به یه کلاینت تورنت مثل utorrent یا deluge نیاز دارید.)
 ۲-روش Netboot
 ۳-دانلود مستقیم فایل ایزو از میرور های رسمی
-[color=blue]مرحله اول:([url=https://wiki.archlinux.org/index.php/USB_flash_installation_media#Using_USBwriter]بوتیبل سازی ایزو[/url])[/color]
+[color=blue]مرحله اوّل:([url=https://wiki.archlinux.org/index.php/USB_flash_installation_media#Using_USBwriter]بوتیبل سازی ایزو[/url])[/color]
 پس از نصب باید فایل ایزوی خود را اصطلاحا بوتیبل کنید.تا هنگام راه اندازی مجدد،سیستم تون قادر باشه به نصاب آرچ رجوع کنه و فرآیند نصب رو در اختیارتون قرار دهد. برای بوتیبل کردن فایل های ایزو،راه های زیادی وجود دارد،از جمله:
 در لینوکس با نرم افزار unetbootin و در ویندوز با نرم افزارهای   unetbootin و Rufus می توانید ایزوی بوتیبل تهیه کنید.(من با هر سه این نرم افزارها کارکردم..توصیه من به شما استفاده از نرم افزار مولتی پلتفرم UnetBootin هست..اون دوتای دیگه بعضی وقتها میشد که فایل ایزویی که بهشون میدادم رو درست بوتیبل نمیکردن.)و به توصیه ویکی آرچ،می تونید از USBwriter هم استفاده کنید.
 [color=blue]مرحله دوم(ورود به محیط نصب آرچ)[/color]
@@ -109,7 +109,7 @@ swapon /dev/sda2
 mkdir /mnt/home
 mount /dev/sda4 /mnt/home
 [/code]
-[color=blue]مرحله هشتم(رَنک کردن میرورها):[/color]
+[color=blue]مرحله هشتم(رَنک کردن میرورها):[/color]-
 قبل از شروع به نصب بسته های ضروری لازم است آینه ها بر اساس بیشترین سرعت به روزرسانی شوند. مراحل زیر را طی کنید:
 [code]
 mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bak
@@ -272,7 +272,7 @@ pacman -S xorg-xinput xf86-input-libinput
 [/code]
 [color=blue]مرحله بیست و پنجم(نصب میزکار یا مدیرپنجره)[/color]
 حالا به مرحله جذاب نصب میزکار رسیدیم..جایی که معمولا افراد سعی میکنن با توجه به نیاز خودشون و البته سلیقه و علاقه ای که به محیط کاری خاصی دارن یه میز کار رو انتخاب کنن.ما اینجا سعی می کنیم شیوه نصب یه میزکارو خدمت تون شرح بدیم و برای باقی میزکارهای معروف لینک هاشونو برای مطالعه در اختیارتون میذاریم:
-Cinnamon: میزکار محبوب خودم که معمولا با لاگین منیجرِ SDDM ترکیبش میکنم:
+Cinnamon: میزکار محبوب خودم که معمولا با لاگین منیجرِ [url=https://wiki.archlinux.org/index.php/SDDM]SDDM [/url]ترکیبش میکنم:
 [code]
 pacman -S cinnamon sddm
 [/code]
@@ -309,6 +309,44 @@ sudo systemctl start NetworkManager
 [code]
 sudo pacman -S yaourt
 [/code]
+
+[color=blue]مرحله سی اُم(مانت کردن خودکار پارتیشن های NTFS)[/color]
+اگر شما هم مثل من از درایوهای NTFS ای بصورت مشترک بین ویندوز و آرچ تون استفاده میکنید احتمالا دلتون نمیخواد هر سری که لاگین میکنید برای مانت شدن پسورد وارد کنید. پس بیاید فرايند مانت شدن این پارتیشن ها رو به کمک  [url=https://wiki.archlinux.org/index.php/NTFS-3G]NTFS-3G[/url]خودکار کنیم. ابتدا بسته nfts-3g رو نصب کنید:
+[code]
+sudo pacman -S ntfs-3g 
+[/code]
+بعد باید محتویات فایل fstab رو جوری تغییر بدیم که با هر بار لاگین بتونه این پارتیشن ها رو مانت کنه. محتوای فعلی fstab من بدین شکله:
+[code]
+# <file system> <dir> <type> <options> <dump> <pass>
+# UUID=7e9d3053-e053-48a5-b30b-34ae06d799dc
+/dev/sda8               /               ext4            rw,relatime,data=ordered        0 1
+
+# UUID=6f0d1bfe-0fdf-44b1-9c7e-8b63decd82df
+/dev/sda6               /boot           ext4            rw,relatime,data=ordered        0 2
+
+# UUID=4aa7c810-059c-4004-80cc-9e2a20455195
+/dev/sda9               /home           ext4            rw,relatime,data=ordered        0 2
+
+# UUID=86652314-2b19-4f27-a0aa-02a4d5305e01
+/dev/sda7               none            swap            defaults,pri=-2 0 0
+[/code]
+که همون طور که مشاهده میکنید به ترتیب root, boot, home , swap رو داره مانت میکنه. من دو تا درایو ntfs ای به نام های C , D هم دارم و میخوام اونا رو به این فایل اضافه کنم.
+ابتدا با دستور زیر UUID شونو پیدا میکنم:
+[code]
+sudo blkid 
+[/code]
+و بعد خطوط زیر رو به انتهای فایل fstab اضافه میکنم:
+[code]
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/sda2 --> C
+UUID=5C0A0E930A0E6A7A  /mnt/C       ntfs-3g         uid=linarcx,gid=users    0 0
+
+# /dev/sda5 --> D
+UUID=D2405DAE405D99D5  /mnt/D      ntfs-3g         uid=linarcx,gid=users    0 0
+[/code]
+*نکته 1*: ملاحظه میکنید که <dir>  رو یک مسیر دلخواه دادم.(mnt/)
+*نکته 2*: برای اینکه این پارتیشن ها فقط توسط یوزر خاصی قابل دسترسی و نوشتن باشن میتونید در بخش <options>  مقادیر مد نظرتونو بهش انتساب کنید.
+حالا هر موقع که سیستم رو ریستارت کنید ملاحظه میکنید که در مرحله بوت این پارتیشن ها هم بصورت خودکار مانت میشن.
 [color=blue]مرحله بیست و هشتم(نصب بسته ها و کدک های صوتی-تصویری)[/color]
 صوت:
 [code]
@@ -331,6 +369,19 @@ sudo packer -S persian-fonts ttf-x2
 و همینطور فونت های غیرفارسی:
 [code]
 sudo pacman -S dina-font gnu-free-fonts ttf-croscore ttf-dejavu ttf-droid ttf-freefont ttf-liberation
+[/code]
+[color=blue]مرحله بیست و نهم(نصب آیکونپک و تم-پیشنهادی)[/color]
+نصب تم و آیکون های زیبا میتونه روحیه کاربر رو هنگام کار روزانه با سیستم بسیار شاد کنه. هرازگاهی یه سری سایتا میان و[url=https://www.devpy.me/10-of-the-best-linux-icon-themes-compared/] لیست هایی [/url]
+ایجاد میکنن که بهترین و زیباترین تم ها و آیکون پک ها رو به کاربرا پیشنهاد میکنن. چندتا شونو نصب میکنیم:
+تم ها:
+[code]
+sudo pacman -S arc-solid-gtk-theme 
+packer -S osx-arc-shadow 
+[/code]
+آیکون ها:
+[code]
+sudo pacman -S papirus-icon-theme
+packer -S paper-icon-theme-git arc-icon-theme-git moka-icon-theme la-capitaine-icon-theme-git obsidian-icon-theme-git compass-icon-theme macos-icon-theme  
 [/code]
 [color=blue]مرحله سی اُم(گلچین کردن و نصب بسته های ضروری و منتخب)[/color]
 [code]
