@@ -65,7 +65,34 @@ socksProxyType = socks5
 restart the polipo service:
 sudo systemctl restart polipo.service
 
+you can use polipo on ۱۲۷.۰.۰.۱:۸۱۲۳
+
 to use http and https install privoxy:
 sudo pacman -S privoxy
 
- 
+ edit the config file:
+/etc/privoxy/config
+
+and add this line :
+forward-socks5t / ۱۲۷.۰.۰.۱:۹۰۵۰ .
+
+restart the polipo service:
+sudo systemctl restart polipo.service
+
+you can use polipo on ۱۲۷.۰.۰.۱:۸۱۱۸
+
+use tor in terminal:
+install torsocks package:
+sudo pacman -S torsocks
+
+uncomment these lines in /etc/tor/torsocks.conf:
+TorAddress ۱۲۷.۰.۰.۱
+TorPort ۹۰۵۰
+
+use it: torsocks foo
+
+
+
+
+
+
