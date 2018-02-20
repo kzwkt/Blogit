@@ -1,3 +1,6 @@
+follow these instructions:
+http://androidcode.ir/post/install-SDK-windows-android-lynda-%D9%86%D8%B5%D8%A8-%D9%88%DB%8C%D9%86%D8%AF%D9%88%D8%B2
+
 install jdk:
 sudo pacman -S jdk8-openjdk 
 it will install:
@@ -10,3 +13,6 @@ java-environment-common-3-1  java-runtime-common-3-1
 or
 java -version
 
+download android-sdkA, android-platform, android-sdk-platform-tools, android-sdk-build-tools 
+from:https://wiki.archlinux.org/index.php/Android#Manual_SDK_installation
+unzip theme and put theme in specific folder in your hardDrive.
