@@ -17,6 +17,14 @@ use sdkmanager that reside in /tools folder.
 List installed and available packages:
 ./sdkmanager --list --proxy=http --proxy_host=127.0.0.1 --proxy_port=8118
 
+if you see warnings like this:
+Warning: Observed package id 'platforms;android-27' in inconsistent location '/mnt/D/Software/IDE/Android-Studio/Android-SDK/platforms/android-8.1.0' (Expected '/mnt/D/Software/IDE/Android-Studio/Android-SDK/platforms/android-27')
+first fix them and continue to next step.
+
+to install packages for example:
+extras;android;m2repository                                                              | 47.0.0       | Android Support Repository                                          
+./sdkmanager "extras;android;m2repository" --proxy=http --proxy_host=127.0.0.1 --proxy_port=8118
+
 download android-sdkA, android-platform, android-sdk-platform-tools, android-sdk-build-tools 
 from:https://wiki.archlinux.org/index.php/Android#Manual_SDK_installation
 unzip theme and put theme in specific folder in your hardDrive.
