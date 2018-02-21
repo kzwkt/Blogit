@@ -16,3 +16,6 @@ java -version
 download android-sdkA, android-platform, android-sdk-platform-tools, android-sdk-build-tools 
 from:https://wiki.archlinux.org/index.php/Android#Manual_SDK_installation
 unzip theme and put theme in specific folder in your hardDrive.
+
+use sdkmanager that reside in /tools folder:
+https://developer.android.com/studio/command-line/sdkmanager.html
