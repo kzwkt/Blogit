@@ -61,10 +61,10 @@ build-tools;27.0.3                                                              
 ### Install packages
 The following packages should be installed:
 
-*android-sdk
-*android-platform
-*android-sdk-platform-tools
-*android-sdk-build-tools                                  
+* android-sdk
+* android-platform
+* android-sdk-platform-tools
+* android-sdk-build-tools                                  
 
 ```
 ./sdkmanager "extras;android;m2repository" "build-tools;27.0.3" --proxy=http --proxy_host=127.0.0.1 --proxy_port=8118
