@@ -1,5 +1,5 @@
-follow these instructions:
-http://androidcode.ir/post/install-SDK-windows-android-lynda-%D9%86%D8%B5%D8%A8-%D9%88%DB%8C%D9%86%D8%AF%D9%88%D8%B2
+in this tutorial we want to seperately download SDK to use simultansely in linux and windows.
+
 
 install jdk:
 sudo pacman -S jdk8-openjdk 
@@ -12,6 +12,9 @@ java-environment-common-3-1  java-runtime-common-3-1
  archlinux-java status
 or
 java -version
+
+install android studio from archlinuxcn repo: http://repo.archlinuxcn.org/
+sudo pacman -S android-studio
 
 use sdkmanager that reside in /tools folder. The sdkmanager is a command line tool that allows you to view, install, update, and uninstall packages for the Android SDK. If you're using Android Studio, then you do not need to use this tool and you can instead manage your SDK packages from the IDE.
 
@@ -32,9 +35,13 @@ build-tools;27.0.3                                                              
 
 ./sdkmanager "extras;android;m2repository" "build-tools;27.0.3" --proxy=http --proxy_host=127.0.0.1 --proxy_port=8118
 
+
+luanch android studio and set proxy in http-proxy tab(if use tor you have to convert socks to https via privoxy)
+go to android-sdk tab and update another parts of sdk.
+
 download android-sdkA, android-platform, android-sdk-platform-tools, android-sdk-build-tools 
 from:https://wiki.archlinux.org/index.php/Android#Manual_SDK_installation
 unzip theme and put theme in specific folder in your hardDrive.
-
-https://developer.android.com/studio/command-line/sdkmanager.html
+follow these instructions:
+http://androidcode.ir/post/install-SDK-windows-android-lynda-%D9%86%D8%B5%D8%A8-%D9%88%DB%8C%D9%86%D8%AF%D9%88%D8%B2
 https://developer.android.com/studio/command-line/sdkmanager.html
