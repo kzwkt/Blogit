@@ -1,30 +1,45 @@
+Introduction
+------------
+
 in this tutorial we want to seperately download SDK to use simultansely in linux and windows.
 
-
-install jdk:
+## install jdk
+``` markdown
 sudo pacman -S jdk8-openjdk 
-it will install:
-java-environment-common-3-1  java-runtime-common-3-1
-             jre8-openjdk-8.u144-1  jre8-openjdk-headless-8.u144-1
-             jdk8-openjdk-8.u144-1
-             
- confirm it install:
- archlinux-java status
+```
+It will install:
+
+- java-environment-common-3-1
+- java-runtime-common-3-1
+- jre8-openjdk-8.u144-1 
+- jre8-openjdk-headless-8.u144-1
+- jdk8-openjdk-8.u144-1
+
+
+### confirm installation
+```
+archlinux-java status
 or
 java -version
+```
 
-install android studio from archlinuxcn repo: http://repo.archlinuxcn.org/
+## Install android-studio from [archlinuxcn repository ](http://repo.archlinuxcn.org/):
+```
 sudo pacman -S android-studio
+```
 
-download sdk tools from:
-https://developer.android.com/studio/index.html
-and extract it wherever you want. for example in: /mnt/D/Software/IDE/Android-Studio/SDK
+## [Download sdk tools](https://developer.android.com/studio/index.html):
 
-change directory to sdk path and run sdkmanagere.
+Extract it wherever you want. for example in:
+```/mnt/D/Software/IDE/Android-Studio/SDK```
 
-use sdkmanager that reside in /tools folder. The sdkmanager is a command line tool that allows you to view, install, update, and uninstall packages for the Android SDK. If you're using Android Studio, then you do not need to use this tool and you can instead manage your SDK packages from the IDE.
+Change directory to sdk path and run sdkmanagere.
 
+
+## work with sdkmanager
+> The sdkmanager is a command line tool that allows you to view, install, update, and uninstall packages for the Android SDK. If you're using Android Studio, then you do not need to use this tool and you can instead manage your SDK packages from the IDE.
 The sdkmanager tool is provided in the Android SDK Tools package (25.2.3 and higher) and is located in android_sdk/tools/bin/.
+Go to /tools folder. 
 
 to use sdkmanager you have to set-up tor with https feature via privoxy package. see ...
 List installed and available packages:
