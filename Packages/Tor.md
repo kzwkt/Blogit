@@ -1,28 +1,37 @@
-Install tor package:
-  sudo pacman -S tor
+## Install tor package
+`sudo pacman -S tor`
   
-Start And Enable Tor service:
-  sudo systemctl start tor.service 
-  sudo systemctl enable tor.service
+## Start And Enable Tor service
+```
+sudo systemctl start tor.service 
+sudo systemctl enable tor.service
+```
  
-See the status:
-  systemctl status tor.service
-if tor not connected yet you have to set up bridges for tor. install obfsproxy:
-  sudo pacman -S obfsproxy
+## See the service status
+`systemctl status tor.service`
+
+If tor not connected yet you have to set up bridges for tor.
+### Install obfsproxy:
+`sudo pacman -S obfsproxy`
   
-  you can get bridges via:
-  ۱. صفحه https://bridges.torproject.org/
+### Get bridges via:
+1. [torproject.org](https://bridges.torproject.org/)
 
-۲. ایمیل کردن get transport obfs3 به bridges@bridges.torproject.org
+2. Send an email to bridges@bridges.torproject.org with: `get transport obfs3` title.
 
-open  etc/tor/torrc/ and paste the bridge:
+### Edit torrc config file
+Open `etc/tor/torrc/` and paste the bridges:
+
+```
 # Bridge
 UseBridges 1
 ClientTransportPlugin obfs2,obfs3 exec /usr/bin/obfsproxy managed
 ClientTransportPlugin obfs4 exec /usr/bin/obfs4proxy managed
+```
 
-then add the bridges:
+### Add the bridges:
 # Bridge
+```
 UseBridges 1
 ClientTransportPlugin obfs2,obfs3 exec /usr/bin/obfsproxy managed
 ClientTransportPlugin obfs4 exec /usr/bin/obfs4proxy managed
@@ -35,61 +44,77 @@ bridge obfs3 23.252.105.31:3443 CDAE9FD7710761D1914182F62B1B47F2FBF1FDE1
 bridge obfs3 104.236.144.217:57836 5DBF6CA06FB41A55AC92F5BF9211B4B5D5FE36B6
 bridge obfs3 128.199.231.217:58002 7019DB88965D148C9826725FD2714EF961939219
 bridge obfs3 148.251.156.199:48462 3BECEABD174AE41C5CCC17254A40DD24EC5372CD
-restart the service and read the tor status:
+```
+
+## Restart the service and read the tor status:
+```
 sudo systemctl restart tor.service
-systemctl status tor.service
+sudo systemctl status tor.service
+```
 
- if you still cannot connect to tor you have to get anothr obfs3 bridge or install obfs4proxy package and get obfs4 bridges.
- sudo pacman -S obfs4proxy
- 
- restart the service and see the log:
- sudo systemctl restart tor.service
-systemctl status tor.service
+If you still cannot connect to tor, you have to get anothr obfs3 bridge or install obfs4proxy package and get obfs4 bridges.
 
-try and try until you connect :)
+## Install obfs4proxy package
+`sudo pacman -S obfs4proxy`
+ 
+### Restart the service and read the log
+```
+sudo systemctl restart tor.service
+sudo systemctl status tor.service
+```
 
-firefox extenstion:
- you can install foxyproxy and set the patterns.
+Try and try until you connect successfully :)
+
+## Extenstion:
+
+### Firefox
+You can install foxyproxy and set the patterns.
  
- use tor in http mode:
- install polipo:
- sudo pacman -S polipo
+## Use tor in http mode
+### Install polipo
+`sudo pacman -S polipo`
  
- go to config file:
- sudo vim /etc/polipo/config
+### Go to config file
+`sudo vim /etc/polipo/config`
  
- add these lines(or uncomment theme)
- socksParentProxy = "localhost:9050"
+### Add these lines(or uncomment theme)
+```
+socksParentProxy = "localhost:9050"
 socksProxyType = socks5
+```
 
-restart the polipo service:
-sudo systemctl restart polipo.service
+### Restart the polipo service
+`sudo systemctl restart polipo.service`
 
-you can use polipo on ۱۲۷.۰.۰.۱:۸۱۲۳
+* you can use polipo on 127.0.0.1:8123
 
-to use http and https install privoxy:
-sudo pacman -S privoxy
+## Use tor in https mode
+### Install privoxy
+`sudo pacman -S privoxy`
 
- edit the config file:
-/etc/privoxy/config
+### Edit config file
+`sudo vim /etc/privoxy/config`
 
-and add this line :
-forward-socks5t / ۱۲۷.۰.۰.۱:۹۰۵۰ .
+And add this line :
+`forward-socks5t / 127.0.0.1:9050.`
 
-restart the polipo service:
-sudo systemctl restart polipo.service
+### Restart the polipo service
+`sudo systemctl restart polipo.service`
 
-you can use polipo on ۱۲۷.۰.۰.۱:۸۱۱۸
+* you can use polipo on 127.0.0.1:8118
 
-use tor in terminal:
-install torsocks package:
-sudo pacman -S torsocks
+## Use tor in terminal
+### Unstall torsocks package
+`sudo pacman -S torsocks`
 
-uncomment these lines in /etc/tor/torsocks.conf:
-TorAddress ۱۲۷.۰.۰.۱
-TorPort ۹۰۵۰
+### uncomment these lines in /etc/tor/torsocks.conf:
+```
+TorAddress 127.0.0.1
+TorPort 9050
+```
 
-use it: torsocks foo
+### Use it
+torsocks foo
 
 
 
