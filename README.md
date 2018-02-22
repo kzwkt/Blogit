@@ -1,2 +1,2 @@
 # Nokat
-Manage And Store All Tips &amp; Tricks that i'v learned from the internet.
+Manage And Store All Tips &amp; Tricks, config files and toturials.
