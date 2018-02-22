@@ -52,7 +52,8 @@ prefix + Ctrl-r - restore
 ```
 
 ## Start tmux on every shell login
-After install tmux-resurrect you must add some line of codes to .bashrc/.zshrc(before aliases). but before do it instal a little package called: `xdotool` that automate hitting CTRL+a CTRL+r for us every time we login to new session.
+After install tmux-resurrect you must add some line of codes to .bashrc/.zshrc(before aliases). but before do it instal a little package called: `xdotool` that automate hitting CTRL+a CTRL+r for us every time we login to new session:
+
 `sudo pacman -S xdotool`
 ```
 # TMUX
@@ -66,6 +67,6 @@ fi
 Sources
 ----
 * [tmux](https://wiki.archlinux.org/index.php/tmux)
-* http://www.rushiagr.com/blog/2016/06/16/everything-you-need-to-know-about-tmux-copy-pasting-ubuntu/
+* [everything-you-need-to-know-about-tmux-copy-pasting](http://www.rushiagr.com/blog/2016/06/16/everything-you-need-to-know-about-tmux-copy-pasting-ubuntu/)
 * [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect)
 * [tpm](https://github.com/tmux-plugins/tpm)
