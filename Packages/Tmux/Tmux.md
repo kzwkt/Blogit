@@ -2,15 +2,6 @@
 For base funtionality install tmux:
 `sudo pacman -S tmux `
 
-## Start tmux on every shell login
-For bash, simply add the following line of bash code to your .bashrc before your aliases:
-```
-# TMUX
-if which tmux >/dev/null 2>&1; then
-    #if not inside a tmux session, and if no session is started, start a new session
-    test -z "$TMUX" && (tmux attach || tmux new-session)
-fi
-```
 ## Save/restore sessions
 For restore tmux environment after system restart we need a plugin called `tmux-resurrect`. But before to use it we need to install tpm(tmux-plugin-manager).
 
@@ -58,6 +49,18 @@ And use it:
 ```
 prefix + Ctrl-s - save
 prefix + Ctrl-r - restore
+```
+
+## Start tmux on every shell login
+After install tmux-resurrect you must add some line of codes to .bashrc/.zshrc(before aliases). but before do it instal a little package called: `xdotool` that automate hitting CTRL+a CTRL+r for us every time we login to new session.
+`sudo pacman -S xdotool`
+```
+# TMUX
+if which tmux >/dev/null 2>&1; then
+    #if not inside a tmux session, and if no session is started, start a new session
+    test -z "$TMUX" && (tmux attach || tmux new-session)
+    xdotool key CTRL+a CTRL+r
+fi
 ```
 
 Sources
