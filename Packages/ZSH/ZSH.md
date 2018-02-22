@@ -37,3 +37,8 @@ fi
 #########
 ```
 
+Refrences
+---
+1. [lidora-zsh](http://lidora.blog.ir/post/ZSH)
+2. [migrate-from-oh-my-zsh-to-prezto](http://lidora.blog.ir/post/migrate-from-oh-my-zsh-to-prezto)
+
