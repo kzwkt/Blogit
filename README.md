@@ -21,7 +21,7 @@
         - [Fix Bootloader](OS/Windows/bootloader.md)
 - [Packages](Packages/)
 	- [MPV](Packages/MPV/)
-	    - [MPV-Tutorial](Packages/MPV/MPV-Tutorial.md)
+	    - [MPV-Tutorial](Packages/MPV/MPV-Tutorial.md) 
 	- [Tmux](Packages/Tmux)
         - [Tmux-Tutorial](Packages/Tmux/Tmux-Tutorial.md)
         - [tmux.conf](Packages/Tmux/.tmux.conf)
