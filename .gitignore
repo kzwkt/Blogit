@@ -1,0 +1,8 @@
+#*
+Assets/*
+!Assets/blogit.png
+#!/.gitignore
+#!pom.xml
+#!.classpath
+#!.project
+#!README.md
