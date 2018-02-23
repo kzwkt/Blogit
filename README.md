@@ -1,4 +1,4 @@
-![Language](https://img.shields.io/github/languages/top/LinArcX/Blogit.svg?style=flat-square)
+![Language](https://img.shields.io/github/languages/top/LinArcX/Blogit.svg?style=flat-square) ![RepoSize](https://img.shields.io/github/repo-size/LinArcX/Blogit.svg?style=flat-square)
 <h1 align="center">
 	<img width="400" src="Assets/blogit.png" alt="Blogit">
 	<br>
