@@ -1,11 +1,10 @@
-![Language](https://img.shields.io/badge/Language-C++%20Qml-pink.svg?style=flat-square)
+![Language](https://img.shields.io/github/languages/top/LinArcX/Blogit.svg)
 <h1 align="center">
 	<img width="400" src="Assets/blogit.png" alt="Blogit">
 	<br>
 	<br>
     <p2>Manage And Store All Tips &amp; Tricks, config files and toturials.</p2>
 </h1>
-## tag ![Language](https://img.shields.io/badge/Language-C++%20Qml-pink.svg?style=flat-square) 
 ## Blog directory
 
 - [OS](OS/)
