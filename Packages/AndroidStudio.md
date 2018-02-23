@@ -1,10 +1,15 @@
-## Blog directory
+## Index
 - [Introduction](#Introduction)
 - [Install JDK](#installJDK)
-- [OS]()
-	- [Arch](OS/Arch/)
-        - [ChangeKernelToLTS](OS/Arch/ChangeKernelToLTS.md)
-        - [Chroot](OS/Arch/Chroot.md)
+    - [Confirm installation](#confirmInstallation)
+- [Install android-studio](#installAndroidStudio)
+- [Download sdk tools](#downloadSdkTools)
+- [sdkmanager](#sdkmanager)
+    - [List installed and available packages](#listPackages)
+    - [Install packages](#installPackages)
+- [Luanch Android-Studio](#luanchAndroidStudio)
+- [Update rest of the SDK](#updateSdk)
+- [References](#references)
 
 
 <a name="Introduction">Introduction</a>
@@ -25,25 +30,25 @@ It will install:
 - jdk8-openjdk-8.u144-1
 
 
-#### Confirm installation
+#### <a name="confirmInstallation">Confirm installation</a>
 ```
 archlinux-java status
 or
 java -version
 ```
 
-### Install android-studio from [archlinuxcn repository ](http://repo.archlinuxcn.org/):
+### <a name="installAndroidStudio">Install android-studio from [archlinuxcn repository ](http://repo.archlinuxcn.org/)</a>
 ```
 sudo pacman -S android-studio
 ```
 
-### [Download sdk tools](https://developer.android.com/studio/index.html):
+### <a name="downloadSdkTools">Download [sdk tools](https://developer.android.com/studio/index.html)</a>
 
 Download SDK-tools from link and Extract it wherever you want. For example in:
 ```/mnt/D/Software/IDE/Android-Studio/SDK```
 
 
-### sdkmanager
+### <a name="sdkmanager">sdkmanager</a>
 > The sdkmanager is a command line tool that allows you to view, install, update, and uninstall packages for the Android SDK. If you're using Android Studio, then you do not need to use this tool and you can instead manage your SDK packages from the IDE.
 The sdkmanager tool is provided in the Android SDK Tools package (25.2.3 and higher) and is located in android_sdk/tools/bin/.
 Go to /tools folder. 
@@ -51,7 +56,7 @@ Go to /tools folder.
 
 Change directory to SDK-Path and run `sdkmanagere`. to use sdkmanager you have to [set-up tor with https feature via privoxy package](https://github.com/LinArcX/Nokat/blob/master/Packages/Tor).
 
-#### List installed and available packages
+#### <a name="listPackages">List installed and available packages</a>
 ```
 ./sdkmanager --list --proxy=http --proxy_host=127.0.0.1 --proxy_port=8118
 ```
@@ -67,7 +72,7 @@ If everything is ok, the output is simillar to:
 and
 build-tools;27.0.3                                                                       | 27.0.3       | Android SDK Build-Tools 27.0.3    
 
-#### Install packages
+#### <a name="installPackages">Install packages</a>
 The following packages should be installed:
 
 * android-sdk
@@ -79,13 +84,13 @@ The following packages should be installed:
 ./sdkmanager "extras;android;m2repository" "build-tools;27.0.3" --proxy=http --proxy_host=127.0.0.1 --proxy_port=8118
 ```
 
-### Luanch android studio
+### <a name="luanchAndroidStudio">Luanch android studio</a>
 and set proxy in http-proxy tab(if you're using tor, you have to convert socks to https via privoxy)
 
-### Update rest of the SDK
+### <a name="updateSdk">Update rest of the SDK</a>
 go to android-sdk tab and update another parts of sdk.
 
-Resources
+<a name="references">References</a>
 -----
 1. [install-SDK-windows-android](http://androidcode.ir/post/install-SDK-windows-android-lynda-%D9%86%D8%B5%D8%A8-%D9%88%DB%8C%D9%86%D8%AF%D9%88%D8%B2)
 
