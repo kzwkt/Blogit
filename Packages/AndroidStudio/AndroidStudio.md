@@ -1,3 +1,9 @@
+<h1 align="center">
+	<img width="200" src="AndroidStudio.svg" alt="androidStudio">
+	<br>
+	<br>
+</h1>
+
 ## Index
 - [Introduction](#Introduction)
 - [Install JDK](#installJDK)
@@ -95,3 +101,6 @@ go to android-sdk tab and update another parts of sdk.
 1. [install-SDK-windows-android](http://androidcode.ir/post/install-SDK-windows-android-lynda-%D9%86%D8%B5%D8%A8-%D9%88%DB%8C%D9%86%D8%AF%D9%88%D8%B2)
 
 2. [sdkmanager](https://developer.android.com/studio/command-line/sdkmanager.html)
+
+<img alt="مجوز کریتیو کامنز" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png">
+</p>
