@@ -55,9 +55,6 @@ Github Repo:[https://github.com/LinArcX](https://github.com/LinArcX)
 
 E-Mail:linarcx@gmail.com
 
-## License
-![License](https://img.shields.io/github/license/LinArcX/Blogit.svg?style=flat-square)
-<p align="center">
 <img alt="مجوز کریتیو کامنز" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png">
 </p>
 

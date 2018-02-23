@@ -1,6 +1,7 @@
 #*
 Assets/*
 !Assets/blogit.png
+garbage.md
 #!/.gitignore
 #!pom.xml
 #!.classpath
