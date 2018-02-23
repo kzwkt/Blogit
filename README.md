@@ -38,7 +38,7 @@
 
 
 ## Contributing
-![Open PR](https://img.shields.io/github/issues-pr-raw/LinArcX/Gnulium.svg?style=flat-square) ![Closed PR](https://img.shields.io/github/issues-pr-closed/LinArcX/Gnulium.svg?style=flat-square)
+![Open PR](https://img.shields.io/github/issues-pr-raw/LinArcX/Blogit.svg?style=flat-square) ![Closed PR](https://img.shields.io/github/issues-pr-closed/LinArcX/Blogit.svg?style=flat-square)
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -am 'Add some feature'`
