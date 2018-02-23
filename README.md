@@ -1,4 +1,4 @@
-# Gnulium ![Language](https://img.shields.io/badge/Language-C++%20Qml-pink.svg?style=flat-square)
+![Language](https://img.shields.io/badge/Language-C++%20Qml-pink.svg?style=flat-square)
 <h1 align="center">
 	<img width="400" src="Assets/blogit.png" alt="Blogit">
 	<br>
