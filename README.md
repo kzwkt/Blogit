@@ -3,6 +3,10 @@
 	<br>
 	<br>
     <p2>Manage And Store All Tips &amp; Tricks, config files and toturials.</p2>
+    <p5>
+    	![Language](https://img.shields.io/badge/Language-C++%20Qml-pink.svg?style=flat-square) ![Latest Tag](https://img.shields.io/github/tag/LinArcX/Gnulium.svg?colorB=green&style=flat-square)
+A Graphical Ui for managing scripts and ideas!
+    </p5>
 </h1>
 
 ## Blog directory
