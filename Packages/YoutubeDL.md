@@ -1,0 +1,1 @@
+youtube-dl -f bestvideo+bestaudio --write-auto-sub --proxy=127.0.0.1:8118 'https://www.youtube.com/watch?v=A-GkNM8M5p8&t=12s' 
