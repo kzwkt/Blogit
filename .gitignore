@@ -1,6 +1,7 @@
 #*
 Assets/*
 !Assets/blogit.png
+!Assets/blogit.svg
 garbage.md
 #!/.gitignore
 #!pom.xml
