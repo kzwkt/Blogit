@@ -44,3 +44,8 @@ Plug 'beigebrucewayne/Turtles'
 call plug#end()
 
 ```
+
+Resources
+---
+1. http://amirsamimi.ir/vimrc/
+2. https://vimawesome.com/

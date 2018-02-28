@@ -28,3 +28,10 @@ Use `vdpauinfo` to verify VDPAU.
 
 * mpv.conf will contain the majority of mpv's settings.
 * input.conf will just contain key bindings.
+
+### Autoplay the next file in the folder in MPV
+Downlaod [autoload.lua](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua) and put it in:
+`~/.config/mpv/scripts`
+
+### User-Scripts
+https://github.com/mpv-player/mpv/wiki/User-Scripts

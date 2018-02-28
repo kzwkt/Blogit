@@ -73,7 +73,7 @@ usr/lib/modules/4.1.13-1-lts/kernel/drivers/gpu/drm/nouveau/nouveau.ko.gz
 #### Teraing Scree issue
 > vsync prevents tearing, not causes it. Tearing happens when your frame rate is higher than the refresh rate of the monitor. the 60.1Hz might be the cause, but I highly doubt that vsync is.
 
-##### Disable Vertical Synchronization (VSYNC)
+##### Disable Vertical Synchronization (VSYNC)- ScreenCast only
  Create this .drirc in your home directory:
  ```
  <device screen="0" driver="dri2">
@@ -90,6 +90,7 @@ Section "Device"
         Identifier  "Intel Graphics"
         Driver      "intel"
         #Option      "DRI" "3"
+        #Option      "VSync" "false"
         Option      "AccelMethod"  "sna" //older method: uxa
         Option      "TearFree" "true"
 EndSection
@@ -99,6 +100,18 @@ add these lines to /etc/environment:
 ```
 CLUTTER_PAINT=disable-clipped-redraws:disable-culling
 CLUTTER_VBLANK=True
+```
+
+##### Enable VSYNC- For normal usage
+just use `sudo vim /etc/X11/xorg.conf.d/20-intel.conf`
+```
+Section "Device"
+        Identifier  "Intel Graphics"
+        Driver      "intel"
+        Option      "DRI" "3"
+        Option      "AccelMethod"  "sna"
+        Option      "TearFree" "true"
+EndSection
 ```
 
 #### Test Tearing 
