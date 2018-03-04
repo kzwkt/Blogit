@@ -35,3 +35,11 @@ Downlaod [autoload.lua](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/
 
 ### User-Scripts
 https://github.com/mpv-player/mpv/wiki/User-Scripts
+
+## Intall in windows7
+get it from cholotey:
+`choco install mpv `
+
+### config file
+config files will be located at:
+`C:\Users\<username>\AppData\Roaming\mpv\`
