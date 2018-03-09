@@ -17,15 +17,15 @@
 15. Dock.application: ---
 16. Terminal: cmder
 17. Archive. Manager: PeaZip
-18. Audio. Video. Converter: ---
-19. ScreenRecorder: ---
-20. ScreenCapture: ---
+18. Audio.Video.Converter: ---
+19. ScreenRecorder: ShareX
+20. ScreenCapture: ShareX
 21. Calculator: Default
-22. Partition. Manager: Default
+22. Partition.Manager: Default
 23. Note.Tools: QOwnNotes
 24. Virtualization: Virtual Box
 25. Office: WPS
-26. Bootable. Tools: Rufus
+26. Bootable.Tools: Rufus
 27. Image.Viewer: Default
 28. Share.Files: Send Any Where
 29. Remote.Desktop: Team Viewer
@@ -34,7 +34,7 @@
 
 ## Graphic
 1. 3D Modeling And Animation:Blender
-2. Image.Manipulation: KolourPaint, Gimp, Shotwell
+2. Image.Manipulation: Paint
 3. Vector.Tools: InkScape
 4. PhotoShop.Like: Krita
 
@@ -58,9 +58,8 @@
 1. Firewall.tools: UFW
 2. Anonymous.Tools:Tor
 
-## Chat. Clients
-1. HexChat
-2. Telegram
+## Chat.Clients
+1. Telegram
 
 ## Config&Utility
 1. Configure.Tools: ---
