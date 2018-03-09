@@ -68,10 +68,9 @@
 3. Charachter.Viewer: Default 
 4. System.Information: Default
 5. Log.Utility: ---
-6. ISO.Utility: AcetoneIso
-7. View Packages: pkgbrowser
-8. Aur. Helper: packer
-9. terminal multiplexer:Tmux
+6. ISO.Utility: UltraIso
+7. View Packages: chocolately
+9. terminal multiplexer: cmder(default)
 
 ### All Packages number
-848
+wtf?
