@@ -30,7 +30,9 @@ git add .
 
 before push we have to pull all files first:
 
-`git pull`
+* `git branch --set-upstream-to=origin/master`
+
+* `git pull`
 
 if you see:
 `fatal: refusing to merge unrelated histories`:
