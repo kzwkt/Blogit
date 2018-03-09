@@ -75,3 +75,7 @@ git push -u origin master
 ### Find remote url
 `git remote show origin`
 
+
+### List Of Remotes
+`git remote -v`
+
