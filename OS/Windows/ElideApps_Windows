@@ -1,4 +1,3 @@
-
 ## General
 
 1. DesktopEnvironment: wtf?
@@ -65,11 +64,11 @@
 
 ## Config&Utility
 1. Configure. Tools: dConf,Gconf
-2. Font. Viewer:gnome. font. viewer
-3. Charachter. Viewer:kcharselect 
-4. System. Information:KinfoCenter
-5. Log. Utility: I. Nex, KSystemLog 
-6. ISO. Utility: AcetoneIso
+2. Font.Viewer: Default
+3. Charachter.Viewer: Default 
+4. System.Information: Default
+5. Log.Utility: ---
+6. ISO.Utility: AcetoneIso
 7. View Packages: pkgbrowser
 8. Aur. Helper: packer
 9. terminal multiplexer:Tmux
