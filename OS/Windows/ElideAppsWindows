@@ -1,15 +1,15 @@
 ## General
 
-1. DesktopEnvironment: wtf?
-2. windowsManager: wtf?
-3. DisplayManager: wtf?
+1. DesktopEnvironment: ---
+2. windowsManager: ---
+3. DisplayManager: ---
 4. FileManager: Explorer++
-َ5. Shell: wtf?
+َ5. Shell: ---
 6. Video Player: MPV
 7. Music Player: Aimp
 8. Text Editor: VSCode
 9. Terminal.Text. Editor: Vim
-10. System Monitor: wtf?
+10. System Monitor: ---
 11. Browser: FireFox,Google Chrome
 12. PDF Viewer: Okular
 13. BitTorrent. Client: ---
@@ -73,4 +73,4 @@
 9. terminal multiplexer: cmder(default)
 
 ### All Packages number
-wtf?
+---
