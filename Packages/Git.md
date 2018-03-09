@@ -26,6 +26,14 @@ cd existing_folder
 git init
 git remote add origin https://gitlab.com/LinArcX/Tvdoon.git
 git add .
+```
+
+before push we have to pull all files first:
+`git pull`
+if you see: `fatal: refusing to merge unrelated histories`:
+`git pull --allow-unrelated-histories`
+then:
+```
 git commit -m "Initial commit"
 git push -u origin master
 ```
