@@ -8,13 +8,13 @@
 6. Video Player: MPV
 7. Music Player: Aimp
 8. Text Editor: VSCode
-9. Terminal. Text. Editor: Vim
+9. Terminal.Text. Editor: Vim
 10. System Monitor: wtf?
 11. Browser: FireFox,Google Chrome
 12. PDF Viewer: Okular
 13. BitTorrent. Client: ---
 14. Download. Manager: Persepolise, Youtube-DL
-15. Dock. application: ---
+15. Dock.application: ---
 16. Terminal: cmder
 17. Archive. Manager: winrar
 18. Audio. Video. Converter: ---
@@ -22,27 +22,27 @@
 20. ScreenCapture: ---
 21. Calculator: Default
 22. Partition. Manager: Default
-23. Note. Tools: QOwnNotes
+23. Note.Tools: QOwnNotes
 24. Virtualization: Virtual Box
 25. Office: WPS
 26. Bootable. Tools: Rufus
-27. Image. Viewer: Shotwell
-28. Share. Files: Send Any Where
-29. Remote. Desktop: Team Viewer
-30. BlueTooth. Manager: Default
-31. WebCam. Capture: ---
+27. Image.Viewer: Default
+28. Share.Files: Send Any Where
+29. Remote.Desktop: Team Viewer
+30. BlueTooth.Manager: Default
+31. WebCam.Capture: ---
 
 ## Graphic
 1. 3D Modeling And Animation:Blender
-2. Image. Manipulation: KolourPaint, Gimp, Shotwell
-3. Vector. Tools: InkScape
+2. Image.Manipulation: KolourPaint, Gimp, Shotwell
+3. Vector.Tools: InkScape
 4. PhotoShop.Like: Krita
 
 ##Programming Tools:[/color]
-1. Source. Control:Git
+1. Source.Control: Git
 2. Java: IntelliJ,Eclipse
 3. Android: AndroidStudio
-4. Android. Emulator: GenyMotion
+4. Android.Emulator: GenyMotion
 5. Python: VSCode
 6. html,css,javascript: VSCode
 7. C++: VSCode, Clion, QtCreator
@@ -51,19 +51,19 @@
 10. C#: VSCode, MonoDevelope, Rider
 
 # Game
-1. Game. Emulator: RetroArch
-2. Game. Engine: Unity3D, Unreal Engine
+1. Game.Emulator: RetroArch
+2. Game.Engine: Unity3D
 
 ## Security
-1. Firewall. tools: UFW
-2. Anonymous. Tools:Tor
+1. Firewall.tools: UFW
+2. Anonymous.Tools:Tor
 
-##Chat. Clients
+## Chat. Clients
 1. HexChat
 2. Telegram
 
 ## Config&Utility
-1. Configure. Tools: dConf,Gconf
+1. Configure.Tools: ---
 2. Font.Viewer: Default
 3. Charachter.Viewer: Default 
 4. System.Information: Default
