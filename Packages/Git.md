@@ -29,9 +29,14 @@ git add .
 ```
 
 before push we have to pull all files first:
+
 `git pull`
-if you see: `fatal: refusing to merge unrelated histories`:
+
+if you see:
+`fatal: refusing to merge unrelated histories`:
+
 `git pull --allow-unrelated-histories`
+
 then:
 ```
 git commit -m "Initial commit"
