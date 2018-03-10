@@ -7,7 +7,7 @@
 4. FileManager:Nemo
 َ5. Shell:ZSH
 6. Video Player:MPV
-7. Music Player:Clementine
+7. Music Player: Qoud Libet
 8. Text Editor:VSCode
 9. Terminal. Text. Editor:Vim
 10. System Monitor:QPS,Gnulium
@@ -32,6 +32,7 @@
 29. Remote. Desktop: Team Viewer
 30. BlueTooth. Manager: Blueman
 31. WebCam. Capture: Cheese
+32. Find File and directories: Catfish
 
 ## Graphic
 1. 3D Modeling And Animation:Blender
