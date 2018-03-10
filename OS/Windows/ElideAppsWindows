@@ -32,6 +32,7 @@
 30. BlueTooth.Manager: Default
 31. WebCam.Capture: ---
 32. FindAndLocate: Everything
+33. SetupTools: InnoSetup
 
 ## Graphic
 1. 3D Modeling And Animation:Blender
