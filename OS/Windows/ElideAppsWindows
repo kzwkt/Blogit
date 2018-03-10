@@ -4,18 +4,18 @@
 2. windowsManager: ---
 3. DisplayManager: ---
 4. FileManager: Explorer++
-َ5. Shell: ---
+َ5. Shell: Cmder
 6. Video Player: MPV
-7. Music Player: Museeks
+7. Music Player: Voltra
 8. Text Editor: VSCode
 9. Terminal.Text. Editor: Vim
-10. System Monitor: ---
-11. Browser: FireFox,Google Chrome
+10. System Monitor: Default
+11. Browser: FireFox, Google Chrome
 12. PDF Viewer: Okular
-13. BitTorrent. Client: ---
-14. Download. Manager: Persepolise, Youtube-DL
+13. BitTorrent.Client: ---
+14. Download.Manager: Persepolise, Youtube-DL
 15. Dock.application: ---
-16. Terminal: cmder
+16. Terminal: Cmder
 17. Archive. Manager: PeaZip
 18. Audio.Video.Converter: ---
 19. ScreenRecorder: ShareX
