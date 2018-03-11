@@ -26,6 +26,7 @@ cd existing_folder
 git init
 git remote add origin https://gitlab.com/LinArcX/Tvdoon.git
 git add .
+git commit -m "Initial commit"
 ```
 
 before push we have to pull all files first:
@@ -41,7 +42,6 @@ if you see:
 
 then:
 ```
-git commit -m "Initial commit"
 git push -u origin master
 ```
 
