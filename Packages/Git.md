@@ -7,7 +7,7 @@ git config --global user.email "linarcx@gmail.com"
 
 ### Set vim as default editor
 ```
-git config --global core.editor vim
+git config --global core.editor "vim"
 or
 sudo git config --system core.editor vim
 ```
@@ -78,4 +78,13 @@ git push -u origin master
 
 ### List Of Remotes
 `git remote -v`
+
+### update tag in editor
+`git tag <tag name> <tag name> -f -a`
+
+### show remote tags
+`git ls-remote --tags`
+
+### current working tag
+`git describe --tags`
 
