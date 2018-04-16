@@ -1,3 +1,4 @@
+### Tips and Tricks
 Font: Source Code Pro 11
 
 for read help about any function or qml variables : F1
@@ -7,3 +8,15 @@ Enable Auto Indent When Press BackSpace           : Tools-->Options-->TextEditor
 Show QtQuick Toolbar        : Tools-->Options-->QtQuick-->Qml/Js Editing-->QtQuit Toolbar-->Always Show QtQuitToolbar
 Auto Indent After Save(Qml) : Tools-->Options-->QtQuick-->Qml/Js Editing-->Enable Auto Foramt On File Save
 Auto Indent After Save      : Tools > Options > Text Editor > Behavior-->cleanups upon saving section
+
+### Create appimage for all linux distro's
+
+#### Install prerequisites
+```
+packer -S linuxdeployqt appimage-git
+```
+
+#### create appimage
+```
+linuxdeployqt ./usr/share/applications/Taghvim.desktop -qmldir='/mnt/D/Document/WorkSpace/Qt/Project/Taghvim' -qmake=/usr/bin/qmake -appimage -verbose=3 &> output.txt
+```
