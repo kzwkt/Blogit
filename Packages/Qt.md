@@ -26,3 +26,10 @@ linuxdeployqt ./usr/share/applications/Taghvim.desktop -qmldir='/mnt/D/Document/
 ```
  windeployqt --qmldir D:\Document\WorkSpace\Qt\Project\Taghvim D:\Document\WorkSpace\Qt\Project\build-Taghvim-Desktop_Qt_5_10_1_MinGW_32bit-Release\release\Taghvim.exe
  ````
+
+### binarycreator
+
+#### windows
+```
+ binarycreator.exe --offline-only -c config\config.xml -p packages\ TaghvimInstaller(1.0.0).exe
+ ```
