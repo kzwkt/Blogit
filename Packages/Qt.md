@@ -15,8 +15,14 @@ Auto Indent After Save      : Tools > Options > Text Editor > Behavior-->cleanup
 ```
 packer -S linuxdeployqt appimage-git
 ```
+### put all .dll or .so files beside binary executable file
 
-#### create appimage
+#### linuxdeployqt
 ```
 linuxdeployqt ./usr/share/applications/Taghvim.desktop -qmldir='/mnt/D/Document/WorkSpace/Qt/Project/Taghvim' -qmake=/usr/bin/qmake -appimage -verbose=3 &> output.txt
 ```
+
+#### windeployqt
+```
+ windeployqt --qmldir D:\Document\WorkSpace\Qt\Project\Taghvim D:\Document\WorkSpace\Qt\Project\build-Taghvim-Desktop_Qt_5_10_1_MinGW_32bit-Release\release\Taghvim.exe
+ ````
