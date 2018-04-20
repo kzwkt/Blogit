@@ -19,6 +19,10 @@ packer -S linuxdeployqt appimage-git
 
 #### linuxdeployqt
 ```
+linuxdeployqt /mnt/D/Document/WorkSpace/Qt/Project/build-Taghvim-Desktop-Release/Taghvim -qmldir='/mnt/D/Document/WorkSpace/Qt/Project/Taghvim' -appimage
+```
+or
+```
 linuxdeployqt ./usr/share/applications/Taghvim.desktop -qmldir='/mnt/D/Document/WorkSpace/Qt/Project/Taghvim' -qmake=/usr/bin/qmake -appimage -verbose=3 &> output.txt
 ```
 
@@ -33,3 +37,7 @@ linuxdeployqt ./usr/share/applications/Taghvim.desktop -qmldir='/mnt/D/Document/
 ```
  binarycreator.exe --offline-only -c config\config.xml -p packages\ TaghvimInstaller(1.0.0).exe
  ```
+#### linux
+```
+binarycreator --offline-only -c config/config.xml -p packages/ TaghvimInstaller.run  
+```
