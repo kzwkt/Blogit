@@ -11,6 +11,9 @@ Auto Indent After Save      : Tools > Options > Text Editor > Behavior-->cleanup
 
 ### Create appimage for all linux distro's
 
+```
+E:\Qt\5.10.1\mingw53_32\bin\qtenv2.bat
+```
 #### Install prerequisites
 ```
 packer -S linuxdeployqt appimage-git
