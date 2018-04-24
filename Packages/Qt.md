@@ -22,6 +22,10 @@ packer -S linuxdeployqt appimage-git
 
 #### linuxdeployqt
 ```
+ linuxdeployqt /mnt/D/Document/WorkSpace/Qt/Project/build-Taghvim-Desktop-Release/Taghvim -qmldir='/mnt/D/Document/WorkSpace/Qt/Project/Taghvim' -bundle-non-qt-libs
+```
+or
+```
 linuxdeployqt /mnt/D/Document/WorkSpace/Qt/Project/build-Taghvim-Desktop-Release/Taghvim -qmldir='/mnt/D/Document/WorkSpace/Qt/Project/Taghvim' -appimage
 ```
 or
