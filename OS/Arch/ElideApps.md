@@ -40,7 +40,7 @@
 3. Vector. Tools:InkScape
 4. PhotoShop. Like:Krita
 
-##Programming Tools:[/color]
+## Programming Tools
 1. Source. Control:Git
 2. Java:IntelliJ,Eclipse
 3. Android: AndroidStudio
@@ -60,7 +60,7 @@
 1. Firewall. tools: UFW
 2. Anonymous. Tools:Tor
 
-##Chat. Clients
+## Chat. Clients
 1. HexChat
 2. Telegram
 
