@@ -7,12 +7,12 @@
 4. FileManager:Nemo
 َ5. Shell:ZSH
 6. Video Player:MPV
-7. Music Player: Qoud Libet
+7. Music Player: deepin-music, cantata, Qoud Libet
 8. Text Editor:VSCode
 9. Terminal. Text. Editor:Vim
 10. System Monitor:QPS,Gnulium
 11. Browser:FireFox,Google. chrome
-12. PDF Viewer:Okular
+12. PDF Viewer:Okular(ebook-tools for ebooks support)
 13. BitTorrent. Client: Deluge
 14. Download. Manager: Persepolise, Youtube. dl
 15. Dock. application: Docky
