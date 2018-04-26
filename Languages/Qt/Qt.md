@@ -1,13 +1,18 @@
-### Tips and Tricks
-Font: Source Code Pro 11
+<h1 align="center">
+	<img width="200" src="Qt.svg" alt="qt">
+	<br>
+	<br>
+</h1>
 
-for read help about any function or qml variables : F1
-Always open help pages in Seperate Help Mode      : Tools-->Options-->Helps-->StartUp-->ONcontextHelp-->Always Show In Help Mode
-Display Line Number And Highlight Current Line    : Tools-->Options-->TextEditor-->Display
-Enable Auto Indent When Press BackSpace           : Tools-->Options-->TextEditor-->Behaivour-->Typing-->Enable Automatic Indention-->Follow Previous Indents
-Show QtQuick Toolbar        : Tools-->Options-->QtQuick-->Qml/Js Editing-->QtQuit Toolbar-->Always Show QtQuitToolbar
-Auto Indent After Save(Qml) : Tools-->Options-->QtQuick-->Qml/Js Editing-->Enable Auto Foramt On File Save
-Auto Indent After Save      : Tools > Options > Text Editor > Behavior-->cleanups upon saving section
+### Tips and Tricks
+1. Font: __Source Code Pro 11__
+2. for read help about any function or qml variables : __F1__
+3. Always open help pages in Seperate Help Mode : **Tools-->Options-->Helps-->StartUp-->ONcontextHelp-->Always Show In Help Mode**
+4. Display Line Number And Highlight Current Line : __Tools-->Options-->TextEditor-->Display__
+5. Enable Auto Indent When Press BackSpace: __Tools-->Options-->TextEditor-->Behaivour-->Typing-->Enable AutomaticIndention-->Follow Previous Indents__
+6. Show QtQuick Toolbar : __Tools-->Options-->QtQuick-->Qml/Js Editing-->QtQuit Toolbar-->Always Show QtQuitToolbar__
+7. Auto Indent After Save(Qml) : __Tools-->Options-->QtQuick-->Qml/Js Editing-->Enable Auto Foramt On File Save__
+8. Auto Indent After Save : __Tools > Options > Text Editor > Behavior-->cleanups upon saving section__
 
 ### Create appimage for all linux distro's
 
@@ -48,3 +53,6 @@ linuxdeployqt ./usr/share/applications/Taghvim.desktop -qmldir='/mnt/D/Document/
 ```
 binarycreator --offline-only -c config/config.xml -p packages/ TaghvimInstaller.run  
 ```
+
+<img alt="مجوز کریتیو کامنز" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png">
+</p>
