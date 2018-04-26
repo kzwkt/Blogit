@@ -45,6 +45,10 @@ call plug#end()
 
 ```
 
+### Tips and Tricks
+1. commet multiple lines:  `66,70s/^/#`
+2. uncommet multiple lines: `66,70s/^#/`
+
 Resources
 ---
 1. http://amirsamimi.ir/vimrc/
