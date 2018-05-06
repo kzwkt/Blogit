@@ -28,7 +28,7 @@
 25. Office:TeX,WPS
 26. Bootable. Tools: UnetBootIn
 27. Image. Viewer: Shotwell
-28. Share. Files: Send Any Where
+28. Share. Files: Primitiveftpd(in Android) and nemo (as ftp client in linux), Send Any Where
 29. Remote. Desktop: Team Viewer
 30. BlueTooth. Manager: Blueman
 31. WebCam. Capture: Cheese
