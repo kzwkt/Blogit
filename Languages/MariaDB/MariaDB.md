@@ -44,4 +44,3 @@ desc mysql.db
 ```
 
 <img alt="مجوز کریتیو کامنز" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png">
-</p>
