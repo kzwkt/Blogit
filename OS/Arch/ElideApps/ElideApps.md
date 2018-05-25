@@ -1,43 +1,43 @@
 
 ## General
 
-1. DesktopEnvironment:Cinnamon
-2. windowsManager:Muffin
-3. DisplayManager:SDDM, None(start with startx command)
-4. FileManager:Nemo
-َ5. Shell:ZSH
-6. Video Player:MPV
-7. Music Player: Deepin Music, cantata, Qoud Libet
-8. Text Editor:VSCode
-9. Terminal. Text. Editor:Vim
-10. System Monitor:QPS,Gnulium
-11. Browser: FireFox, Google.chrome
+1. DesktopEnvironment: Cinnamon
+2. windowsManager: Muffin
+3. DisplayManager: SDDM, None(start with startx command)
+4. FileManager: Nemo
+َ5. Shell: ZSH
+6. Video Player: MPV
+7. Music Player: Deepin Music, Cantata, Qoud Libet
+8. Text Editor: VSCode
+9. Terminal Text Editor: Vim
+10. System Monitor: QPS, Gnulium
+11. Browser: FireFox, GoogleChrome
 12. PDF Viewer: Okular(ebook-tools for ebooks support)
-13. BitTorrent. Client: Deluge
-14. Download. Manager: Persepolise, YoutubeDl
-15. Dock. application: Docky
+13. BitTorrent Client: Deluge
+14. Download Manager: Persepolise, YoutubeDl
+15. Dock application: Docky
 16. Terminal: DeepinTerminal, GnomeTerminal
-17. Archive. Manager:File. Roller
-18. Audio. Video. Converter: HandBrake, MkvToolNix, OpenShot
+17. Archive Manager: FileRoller, Peazip
+18. Audio-Video-Converter: HandBrake, MkvToolNix, OpenShot
 19. ScreenRecorder: VokoScreen, SimpleScreenRecorder
-20. ScreenCapture: gnome. screenshot
-21. Calculator: SpeedCrunch
-22. Partition. Manager: Gparted
-23. Note. Tools: QOwnNotes
+20. ScreenCapture: gnomeScreenshot
+21. Calculator: SpeedCrunch, DeepinCalculator
+22. PartitionManager: Gparted
+23. NoteTools: QOwnNotes
 24. Virtualization: Virtual Box
-25. Office:TeX,WPS
-26. Bootable. Tools: UnetBootIn
-27. Image. Viewer: Shotwell
-28. Share. Files: Primitiveftpd(in Android) and nemo (as ftp client in linux), Send Any Where
-29. Remote. Desktop: Team Viewer
-30. BlueTooth. Manager: Blueman
-31. WebCam. Capture: Cheese
-32. Find File and directories: Catfish
-33. ClipBoard Manager: CopyQ
+25. Office: WPS, TeX
+26. Bootable-Tools: UnetBootIn
+27. Image-Viewer: Shotwell
+28. ShareFiles: Primitiveftpd(in Android) and nemo (as ftp client in linux), Send Any Where
+29. Remote-Desktop: Team Viewer
+30. BlueTooth-Manager: Blueman
+31. WebCam-Capture: Cheese
+32. Find-EveryThing: Catfish
+33. ClipBoard-Manager: CopyQ
 
 ## Graphic
-1. 3D Modeling And Animation:Blender
-2. Image. Manipulation:KolourPaint, Gimp, Shotwell
+1. 3D Modeling And Animation: Blender
+2. Image. Manipulation: KolourPaint, Gimp, Shotwell
 3. Vector. Tools:InkScape
 4. PhotoShop. Like:Krita
 
