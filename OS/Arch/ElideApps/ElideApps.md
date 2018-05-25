@@ -42,39 +42,39 @@
 4. PhotoShop. Like:Krita
 
 ## Programming Tools
-1. Source. Control:Git
-2. Java:IntelliJ,Eclipse
+1. Source-Control: Git
+2. Java: IntelliJ, Eclipse
 3. Android: AndroidStudio
-4. Android. Emulator: GenyMotion
+4. Android-Emulator: GenyMotion
 5. Python: VSCode, Pycharm
-6. html,css,javascript: VSCode
+6. html-css-javascript: VSCode
 7. C++: VSCode, Clion, QtCreator
-8. Sqlite, mySql: DataGrip
+8. Sqlite-MySql: DataGrip
 9. Qt: Qt Creator
 10. C#: VSCode, MonoDevelope, Rider
 
 # Game
-1. Game. Emulator: RetroArch
-2. Game. Engine: Unity3D, Unreal Engine
+1. Game-Emulator: RetroArch
+2. Game-Engine: Unity3D, Unreal Engine
 
 ## Security
-1. Firewall. tools: UFW
-2. Anonymous. Tools:Tor
+1. Firewall-Tools: UFW
+2. Anonymous-Tools: Tor
 
-## Chat. Clients
-1. HexChat
-2. Telegram
+## Chat-Clients
+1. IRC-Client: Konversation, HexChat
+2. Messanger: Telegram
 
 ## Config&Utility
-1. Configure. Tools: dConf,Gconf
-2. Font. Viewer:gnome. font. viewer
-3. Charachter. Viewer:kcharselect 
-4. System. Information:KinfoCenter
-5. Log. Utility: I. Nex, KSystemLog 
-6. ISO. Utility: AcetoneIso
+1. Configure-Tools: dConf,Gconf
+2. Font-Viewer: gnomeFontViewer
+3. Charachter-Viewer: kcharselect 
+4. System-Information: KinfoCenter
+5. Log-Utility: INex, KSystemLog 
+6. ISO-Utility: AcetoneIso
 7. View Packages: pkgbrowser
-8. Aur. Helper: packer
-9. terminal multiplexer:Tmux
+8. Aur-Helper: packer
+9. Terminal-Multiplexer: Tmux
 
 ### All Packages number
 848
