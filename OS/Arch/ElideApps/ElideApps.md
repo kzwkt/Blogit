@@ -1,23 +1,23 @@
 
 ## General
 
-1. DesktopEnvironment: Cinnamon
-2. windowsManager: Muffin
-3. DisplayManager: SDDM, None(start with startx command)
-4. FileManager: Nemo
+1. Desktop-Environment: Cinnamon
+2. Windows-Manager: Muffin
+3. Display-Manager: SDDM, None(start with startx command)
+4. File-Manager: Nemo
 َ5. Shell: ZSH
-6. Video Player: MPV
-7. Music Player: Deepin Music, Cantata, Qoud Libet
-8. Text Editor: VSCode
-9. Terminal Text Editor: Vim
-10. System Monitor: QPS, Gnulium
+6. Video-Player: MPV, DeepinMovie
+7. Music-Player: DeepinMusic, Cantata, Qoud Libet
+8. Text-Editor: VSCode
+9. Terminal-Text-Editor: Vim
+10. System-Monitor: QPS, Gnulium
 11. Browser: FireFox, GoogleChrome
-12. PDF Viewer: Okular(ebook-tools for ebooks support)
-13. BitTorrent Client: Deluge
-14. Download Manager: Persepolise, YoutubeDl
-15. Dock application: Docky
+12. PDF-Viewer: Okular(ebook-tools for ebooks support)
+13. BitTorrent-Client: Deluge
+14. Download-Manager: Persepolise, YoutubeDl
+15. Dock-App: Docky
 16. Terminal: DeepinTerminal, GnomeTerminal
-17. Archive Manager: FileRoller, Peazip
+17. Archive-Manager: FileRoller, Peazip
 18. Audio-Video-Converter: HandBrake, MkvToolNix, OpenShot
 19. ScreenRecorder: VokoScreen, SimpleScreenRecorder
 20. ScreenCapture: gnomeScreenshot
@@ -36,10 +36,10 @@
 33. ClipBoard-Manager: CopyQ
 
 ## Graphic
-1. 3D Modeling And Animation: Blender
-2. Image. Manipulation: KolourPaint, Gimp, Shotwell
-3. Vector. Tools:InkScape
-4. PhotoShop. Like:Krita
+1. 3D-Modeling-And-Animation: Blender
+2. Image-Manipulation: KolourPaint, Gimp, Shotwell
+3. Vector-Tools: InkScape
+4. PhotoShop-Like: Krita
 
 ## Programming Tools
 1. Source-Control: Git
