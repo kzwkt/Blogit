@@ -29,7 +29,7 @@
 26. Bootable-Tools: UnetBootIn
 27. Image-Viewer: Shotwell
 28. ShareFiles: Primitiveftpd(in Android) and nemo (as ftp client in linux), Send Any Where
-29. Remote-Desktop: Team Viewer
+29. Remote-Desktop: AnyDesk, Team Viewer
 30. BlueTooth-Manager: Blueman
 31. WebCam-Capture: Cheese
 32. Find-EveryThing: Catfish
