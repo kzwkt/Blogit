@@ -33,6 +33,7 @@
 30. BlueTooth. Manager: Blueman
 31. WebCam. Capture: Cheese
 32. Find File and directories: Catfish
+33. ClipBoard Manager: CopyQ
 
 ## Graphic
 1. 3D Modeling And Animation:Blender
