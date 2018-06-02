@@ -120,6 +120,10 @@ https://www.youtube.com/watch?v=5xkNy9gfKOg
 #### Modesettings
 just install: `sudo pacman -S xf86-video-intel mesa`
 
+
+### Change default application
+1. first in most DE's there is option like: __Prefered Applications__ that you can change default app. for example in cinnamon you can open all texts with visualstudiocode. if there is extensions like .css that you want to open it with another editor, you have to edit mimeapps.list file. for more detail:(XDG_MIME_Applications)[https://wiki.archlinux.org/index.php/XDG_MIME_Applications#mimeapps.list]
+
 Resources
 ---
 1. http://bbs.archusers.ir/viewtopic.php?id=637

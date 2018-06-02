@@ -75,6 +75,8 @@ This is where header files come in. Header files allow you to make the interface
 
 The #include statement is basically like a copy/paste operation. The compiler will "replace" the #include line with the actual contents of the file you're including when it compiles the file.
 
+> in .h files we say that these functions just exists without implement them. other files include just .h files and they just need to know those functions exists withous knowing about their implemantation.
+
 ###  What is the difference between .h/.cpp/.hpp/.cc/etc
 
 All files are fundamentally the same in that they're all text files, however different kinds of files should have different extensions:
@@ -178,5 +180,9 @@ Now comes the linker, which combines the two object files Foo.o and Main.o into 
 If you had included the Foo.cpp file in Main.cpp, there would be two definitions of class Foo. The linker would see this and say "I don't know which one to pick, so this is an error." The compiling step would succeed, but linking would not. (Unless you just do not compile Foo.cpp but then why is it in a separate .cpp file?)
 
 Finally, the idea of different file types is irrelevant to a C/C++ compiler. It compiles "text files" which hopefully contain valid code for the desired language. Sometimes it may be able to tell the language based on the file extension. For example, compile a .c file with no compiler options and it will assume C, while a .cc or .cpp extension would tell it to assume C++. However, I can easily tell a compiler to compile a .h or even .docx file as C++, and it will emit an object (.o) file if it contains valid C++ code in plain text format. These extensions are more for the benefit of the programmer. If I see Foo.h and Foo.cpp, I immediately assume that the first contains the declaration of the class and the second contains the definition.
+
+### Generics Vs Templates
+1. generics resolve at runtime
+2. templates resolve at compile time
 
 <img alt="مجوز کریتیو کامنز" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png">
