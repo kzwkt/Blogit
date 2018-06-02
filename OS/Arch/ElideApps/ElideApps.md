@@ -1,79 +1,77 @@
 
 ## General
 
-1. DesktopEnvironment:Cinnamon
-2. windowsManager:Muffin
-3. DisplayManager:SDDM, None(start with startx command)
-4. FileManager:Nemo
-َ5. Shell:ZSH
-6. Video Player:MPV
-7. Music Player: Deepin Music, cantata, Qoud Libet
-8. Text Editor:VSCode
-9. Terminal. Text. Editor:Vim
-10. System Monitor:QPS,Gnulium
-11. Browser: FireFox, Google.chrome
-12. PDF Viewer: Okular(ebook-tools for ebooks support)
-13. BitTorrent. Client: Deluge
-14. Download. Manager: Persepolise, YoutubeDl
-15. Dock. application: Docky
+1. Desktop-Environment: Cinnamon
+2. Windows-Manager: Muffin
+3. Display-Manager: SDDM, None(start with startx command)
+4. File-Manager: Nemo
+َ5. Shell: ZSH
+6. Video-Player: MPV, DeepinMovie
+7. Music-Player: DeepinMusic, Cantata, Qoud Libet
+8. Text-Editor: VSCode
+9. Terminal-Text-Editor: Vim
+10. System-Monitor: QPS, Gnulium
+11. Browser: FireFox, GoogleChrome
+12. PDF-Viewer: Okular(ebook-tools for ebooks support)
+13. BitTorrent-Client: Deluge
+14. Download-Manager: Persepolise, YoutubeDl
+15. Dock-App: Docky
 16. Terminal: DeepinTerminal, GnomeTerminal
-17. Archive. Manager:File. Roller
-18. Audio. Video. Converter: HandBrake, MkvToolNix, OpenShot
+17. Archive-Manager: FileRoller, Peazip
+18. Audio-Video-Converter: HandBrake, MkvToolNix, OpenShot
 19. ScreenRecorder: VokoScreen, SimpleScreenRecorder
-20. ScreenCapture: gnome. screenshot
-21. Calculator: SpeedCrunch
-22. Partition. Manager: Gparted
-23. Note. Tools: QOwnNotes
+20. ScreenCapture: gnomeScreenshot
+21. Calculator: SpeedCrunch, DeepinCalculator
+22. PartitionManager: Gparted
+23. NoteTools: QOwnNotes
 24. Virtualization: Virtual Box
-25. Office:TeX,WPS
-26. Bootable. Tools: UnetBootIn
-27. Image. Viewer: Shotwell
-28. Share. Files: Primitiveftpd(in Android) and nemo (as ftp client in linux), Send Any Where
-29. Remote. Desktop: Team Viewer
-30. BlueTooth. Manager: Blueman
-31. WebCam. Capture: Cheese
-32. Find File and directories: Catfish
+25. Office: WPS, TeX
+26. Bootable-Tools: UnetBootIn
+27. Image-Viewer: Shotwell, Nomacs
+28. ShareFiles: Primitiveftpd(in Android) and nemo (as ftp client in linux), Send Any Where
+29. Remote-Desktop: AnyDesk, Team Viewer
+30. BlueTooth-Manager: Blueman
+31. WebCam-Capture: Cheese
+32. Find-EveryThing: Catfish
+33. ClipBoard-Manager: CopyQ
 
 ## Graphic
-1. 3D Modeling And Animation:Blender
-2. Image. Manipulation:KolourPaint, Gimp, Shotwell
-3. Vector. Tools:InkScape
-4. PhotoShop. Like:Krita
+1. 3D-Modeling-And-Animation: Blender
+2. Image-Manipulation: KolourPaint, Gimp, Shotwell
+3. Vector-Tools: InkScape
+4. PhotoShop-Like: Krita
 
 ## Programming Tools
-1. Source. Control:Git
-2. Java:IntelliJ,Eclipse
+1. Source-Control: Git
+2. Java: IntelliJ, Eclipse
 3. Android: AndroidStudio
-4. Android. Emulator: GenyMotion
+4. Android-Emulator: GenyMotion
 5. Python: VSCode, Pycharm
-6. html,css,javascript: VSCode
+6. html-css-javascript: VSCode
 7. C++: VSCode, Clion, QtCreator
-8. Sqlite, mySql: DataGrip
+8. Sqlite-MySql: DataGrip
 9. Qt: Qt Creator
 10. C#: VSCode, MonoDevelope, Rider
 
 # Game
-1. Game. Emulator: RetroArch
-2. Game. Engine: Unity3D, Unreal Engine
+1. Game-Emulator: RetroArch
+2. Game-Engine: Unity3D, Unreal Engine
 
 ## Security
-1. Firewall. tools: UFW
-2. Anonymous. Tools:Tor
+1. Firewall-Tools: UFW
+2. Anonymous-Tools: Tor
 
-## Chat. Clients
-1. HexChat
-2. Telegram
+## Chat-Clients
+1. IRC-Client: Konversation, HexChat
+2. Messanger: Telegram
 
 ## Config&Utility
-1. Configure. Tools: dConf,Gconf
-2. Font. Viewer:gnome. font. viewer
-3. Charachter. Viewer:kcharselect 
-4. System. Information:KinfoCenter
-5. Log. Utility: I. Nex, KSystemLog 
-6. ISO. Utility: AcetoneIso
+1. Configure-Tools: dConf,Gconf
+2. Font-Viewer: gnomeFontViewer
+3. Charachter-Viewer: kcharselect 
+4. System-Information: KinfoCenter
+5. Log-Utility: INex, KSystemLog 
+6. ISO-Utility: AcetoneIso
 7. View Packages: pkgbrowser
-8. Aur. Helper: packer
-9. terminal multiplexer:Tmux
-
-### All Packages number
-848
+8. Aur-Helper: packer
+9. Terminal-Multiplexer: Tmux
