@@ -40,6 +40,15 @@
 2. Paper(Mouse Pointer)
 3. arc-solid-gtk-theme(Controls)
 4. osx-arc-shadow(Windows Border, Desktop)
+5. deepin-gtk-theme
+
+## Fonts
+1. awesome-terminal-fonts
+2. persian-fonts
+3. ttf-bitstream-vera
+4. ttf-liberation
+5. ttf-mac-fonts
+6. ttf-ubuntu-font-family
 
 ## Graphic
 1. 3D-Modeling-And-Animation: Blender
