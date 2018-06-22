@@ -35,6 +35,12 @@
 32. Find-EveryThing: Catfish
 33. ClipBoard-Manager: CopyQ
 
+## Icon-Theme
+1. Papirus icon theme(Icons)
+2. Paper(Mouse Pointer)
+3. arc-solid-gtk-theme(Controls)
+4. osx-arc-shadow(Windows Border, Desktop)
+
 ## Graphic
 1. 3D-Modeling-And-Animation: Blender
 2. Image-Manipulation: KolourPaint, Gimp, Shotwell
