@@ -73,5 +73,5 @@
 5. Log-Utility: INex, KSystemLog 
 6. ISO-Utility: AcetoneIso
 7. View Packages: pkgbrowser
-8. Aur-Helper: packer
+8. Aur-Helper: aurman
 9. Terminal-Multiplexer: Tmux
