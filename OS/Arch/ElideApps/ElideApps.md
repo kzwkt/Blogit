@@ -17,7 +17,7 @@
 14. Download-Manager: Persepolise, YoutubeDl
 15. Dock-App: Docky
 16. Terminal: DeepinTerminal, GnomeTerminal
-17. Archive-Manager: FileRoller, Peazip
+17. Archive-Manager: Peazip, nemo-peazip
 18. Audio-Video-Converter: HandBrake, MkvToolNix, OpenShot
 19. ScreenRecorder: VokoScreen, SimpleScreenRecorder
 20. ScreenCapture: gnomeScreenshot
