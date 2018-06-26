@@ -67,6 +67,7 @@
 8. Sqlite-MySql: DataGrip
 9. Qt: Qt Creator
 10. C#: VSCode, MonoDevelope, Rider
+11. AVR IDE: Cross Studio
 
 # Game
 1. Game-Emulator: RetroArch
