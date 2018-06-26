@@ -64,3 +64,4 @@ In my case, I hit this error when trying to compile the Qt SDK itself. Long stor
 ```
 qmake -spec E:\Software\Installed\Qt\5.11.1\msvc2017_64\mkspecs\win32-g++
 ```
+https://stackoverflow.com/questions/5303634/qmake-qmakespec-has-not-been-set
