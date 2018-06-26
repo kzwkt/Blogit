@@ -45,3 +45,22 @@ Tips: in some distro's like arch pkg-config only see __/usr/lib/pkgconfig__ and 
 ```
 export PKG_CONFIG_PATH="/usr/local/lib/pkgconfig:/usr/local/share/pkgconfig"
 ```
+
+## Missing Separator Error in Makefile
+I am working on Qt 4.7.2 on Windows. I have generated Makefile, Makefile.Debug and Makefile.Release. However, when I try to use mingw32-make to build an executable, I get the following error:
+
+```
+mingw32-make -f Makefile.Debug all
+mingw32-make[1]: Entering directory `C:/Qt/4.7.2/src/plugins/sqldrivers/mysql'
+Makefile.Debug:61: *** missing separator.  Stop.
+mingw32-make[1]: Leaving directory `C:/Qt/4.7.2/src/plugins/sqldrivers/mysql'
+mingw32-make: *** [debug-all] Error 2
+```
+
+Answer:
+Not sure how you generated the makefiles, but they're probably nmake makefiles, not mingw makefiles. You can tell by looking at the top of Makefile.Debug. If you see "CXX = cl", not "CXX = g++", then that's your problem.
+
+In my case, I hit this error when trying to compile the Qt SDK itself. Long story short: I needed to specify "-platform win32-g++" on the configure command line (it defaulted to win32-msvc).or:
+```
+qmake -spec E:\Software\Installed\Qt\5.11.1\msvc2017_64\mkspecs\win32-g++
+```
