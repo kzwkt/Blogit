@@ -89,7 +89,7 @@ jom.exe qmake_all
 
 ## Compile libraries with msbuild from terminal
 ```
-msbuild foo.sln /p:Configuration=Release
+msbuild foo.sln /p:Configuration=Release /property:Platform=x64
 ```
 if you make them with vs compiler, the .sln files will create. you can open visual studio and build the soulotion.
 https://stackoverflow.com/questions/7724569/debug-vs-release-in-cmake
