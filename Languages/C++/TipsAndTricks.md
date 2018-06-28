@@ -84,7 +84,7 @@ make
 ## Compile libraries
 ```
 qmake.exe E:\Libraries\qx\QxOrm\QxOrm.pro -spec win32-msvc CONFIG+=debug CONFIG+=qml_debug
-jom.exe
+jom.exe qmake_all
 ```
 if you make them with vs compiler, the .sln files will create. you can open visual studio and build the soulotion.
 https://stackoverflow.com/questions/7724569/debug-vs-release-in-cmake
