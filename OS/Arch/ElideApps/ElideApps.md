@@ -32,7 +32,7 @@
 29. Remote-Desktop: AnyDesk, Team Viewer
 30. BlueTooth-Manager: Blueman
 31. WebCam-Capture: Cheese
-32. Find-EveryThing: Catfish
+32. Finder: FSearch
 33. ClipBoard-Manager: CopyQ
 
 ## Icon-Theme
