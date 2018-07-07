@@ -98,3 +98,8 @@ https://stackoverflow.com/questions/7724569/debug-vs-release-in-cmake
 ```
 conan install -s compiler="gcc" -s os="Windows" -s os_build="Windows" -s os_target="Android" -s arch_target="armv7" -s compiler.libcxx="libstdc++" -s compiler.version="5.3" --build zlib ..
 ```
+
+#### Make Android Toolchain for cross-compiling
+```
+C:\Python37\python build\tools\make_standalone_toolchain.py --api 28 --arch arm --install-dir ../androudtoolchain
+```
