@@ -93,3 +93,8 @@ MSBuild foo.sln /t:Build,Compile /p:Configuration=Release /p:Platform=x64  /prop
 ```
 if you make them with vs compiler, the .sln files will create. you can open visual studio and build the soulotion.
 https://stackoverflow.com/questions/7724569/debug-vs-release-in-cmake
+
+## Conan
+```
+conan install -s compiler="gcc" -s os="Windows" -s os_build="Windows" -s os_target="Android" -s arch_target="armv7" -s compiler.libcxx="libstdc++" -s compiler.version="5.3" --build zlib ..
+```
