@@ -103,3 +103,5 @@ conan install -s compiler="gcc" -s os="Windows" -s os_build="Windows" -s os_targ
 ```
 C:\Python37\python build\tools\make_standalone_toolchain.py --api 28 --arch arm --install-dir ../androudtoolchain
 ```
+then add path to environment-variables:
+___D:\Software\Sources\IDE\Android\androudtoolchain___
