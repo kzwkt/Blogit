@@ -10,7 +10,7 @@
 ## Start and enable service
 ```
 sudo systemctl start systemd-modules-load.service
-sudo systemctl start systemd-modules-load.service
+sudo systemctl enable systemd-modules-load.service
 ```
 
 if some module does not load properly create this file:
@@ -23,7 +23,11 @@ vboxnetadp
 vboxnetflt
 vboxpci
 ```
-
+or:
+```
+sudo su
+echo -e "vboxdrv\nvboxnetflt\nvboxnetadp\nvboxpcic" > /etc/modules-load.d/virtualbox.conf
+```
 ## Reload vboxreload
 vboxreload
 ## Add your user to vboxgroup
