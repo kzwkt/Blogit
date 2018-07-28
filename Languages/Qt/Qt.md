@@ -70,5 +70,11 @@ and reOpen the QtCreator.
 ```trizen -S android-google-apis-x86 android-x86-system-image-22 ```
 3. Install android toolchain(arm-linux-gnueabihf-gcc or arm-linux-gnueabihf-gcc-stage1), and xcode toolchain(x-tools-armv6-bin), windows-toolchain(mingw-w64-gcc) and crosstool-ng-git.
 
+change ownership of /opt/android-ndk:
+```
+sudo chmod -R 777 /opt/android-ndk
+```
+something with android-sdk too.
+
 [system images](https://aur.archlinux.org/packages/?O=0&K=android+system+image)
 <img alt="مجوز کریتیو کامنز" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png">
