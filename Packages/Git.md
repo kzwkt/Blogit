@@ -88,6 +88,20 @@ git push -u origin master
 ### current working tag
 `git describe --tags`
 
+### delete local branch
+```
+ git branch -d branch_name
+ ```
+ 
+ ### delete remote branch
+ ```
+ git push <remote_name> :<branch_name>
+ ```
+ for example:
+ ```
+ sudo git push origin :release 
+ ```
+
 ### Change remote addresses
 ```
 git remote -v
