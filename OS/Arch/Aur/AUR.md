@@ -56,7 +56,7 @@ $ git add PKGBUILD .SRCINFO
 </div>
 
 ```
-$ git commit -m "useful commit message"
+$ git commit -m "Init AUR Repo"
 ```
 
 <div dir="rtl">

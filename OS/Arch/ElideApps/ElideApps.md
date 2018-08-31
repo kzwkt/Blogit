@@ -17,7 +17,7 @@
 14. Download-Manager: Persepolise, YoutubeDl
 15. Dock-App: Docky
 16. Terminal: DeepinTerminal, GnomeTerminal
-17. Archive-Manager: FileRoller, Peazip
+17. Archive-Manager: Peazip, nemo-peazip
 18. Audio-Video-Converter: HandBrake, MkvToolNix, OpenShot
 19. ScreenRecorder: VokoScreen, SimpleScreenRecorder
 20. ScreenCapture: gnomeScreenshot
@@ -32,8 +32,23 @@
 29. Remote-Desktop: AnyDesk, Team Viewer
 30. BlueTooth-Manager: Blueman
 31. WebCam-Capture: Cheese
-32. Find-EveryThing: Catfish
+32. Finder: FSearch
 33. ClipBoard-Manager: CopyQ
+
+## Icon-Theme
+1. Papirus icon theme(Icons)
+2. Paper(Mouse Pointer)
+3. arc-solid-gtk-theme(Controls)
+4. osx-arc-shadow(Windows Border, Desktop)
+5. deepin-gtk-theme
+
+## Fonts
+1. awesome-terminal-fonts
+2. persian-fonts
+3. ttf-bitstream-vera
+4. ttf-liberation
+5. ttf-mac-fonts
+6. ttf-ubuntu-font-family
 
 ## Graphic
 1. 3D-Modeling-And-Animation: Blender
@@ -52,6 +67,7 @@
 8. Sqlite-MySql: DataGrip
 9. Qt: Qt Creator
 10. C#: VSCode, MonoDevelope, Rider
+11. AVR IDE: Cross Studio
 
 # Game
 1. Game-Emulator: RetroArch
@@ -73,5 +89,5 @@
 5. Log-Utility: INex, KSystemLog 
 6. ISO-Utility: AcetoneIso
 7. View Packages: pkgbrowser
-8. Aur-Helper: packer
+8. Aur-Helper: aurman
 9. Terminal-Multiplexer: Tmux
