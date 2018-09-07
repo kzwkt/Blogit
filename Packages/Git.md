@@ -136,15 +136,15 @@ Push the changes to your forked repository i.e. to origin:
 
 Voila! You are done with the syncing the original repository.
 
-1. Make sure you've pulled the new upstream branch into your local repo:
-1.1. First, ensure your working tree is clean (commit/stash/revert any changes)
-1.2. Then, git fetch upstream to retrieve the new upstream branch
+- Make sure you've pulled the new upstream branch into your local repo:
+  - First, ensure your working tree is clean (commit/stash/revert any changes)
+  - Then, `git fetch upstream` to retrieve the new upstream branch
 
-2. Create and switch to a local version of the new upstream branch (newbranch):
-2.1. git checkout -b newbranch upstream/newbranch
+- Create and switch to a local version of the new upstream branch (newbranch):
+  `git checkout -b newbranch upstream/newbranch`
 
-3. When you're ready to push the new branch to origin:
-3.1. git push -u origin newbranch
+- When you're ready to push the new branch to origin:
+ - `git push -u origin newbranch`
 
 The -u switch sets up tracking to the specified remote (in this example, origin)
 
