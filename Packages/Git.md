@@ -141,10 +141,10 @@ Voila! You are done with the syncing the original repository.
   - Then, `git fetch upstream` to retrieve the new upstream branch
 
 - Create and switch to a local version of the new upstream branch (newbranch):
-  `git checkout -b newbranch upstream/newbranch`
+  - `git checkout -b newbranch upstream/newbranch`
 
 - When you're ready to push the new branch to origin:
- - `git push -u origin newbranch`
+  - `git push -u origin newbranch`
 
 The -u switch sets up tracking to the specified remote (in this example, origin)
 
