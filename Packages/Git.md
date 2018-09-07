@@ -72,9 +72,11 @@ git push -u origin master
 5. Set the new URL using git:
 6. `git remote set-url origin git@github.com:User/project-new.git`
 
+#### See commits in a branch
+`git log master..branchA`
+
 ### Find remote url
 `git remote show origin`
-
 
 ### List Of Remotes
 `git remote -v`
@@ -89,18 +91,13 @@ git push -u origin master
 `git describe --tags`
 
 ### delete local branch
-```
- git branch -d branch_name
- ```
+`git branch -d branch_name`
  
- ### delete remote branch
- ```
- git push <remote_name> :<branch_name>
- ```
- for example:
- ```
- sudo git push origin :release 
- ```
+### delete remote branch
+` git push <remote_name> :<branch_name>`
+ 
+for example:
+`sudo git push origin :release`
 
 ### Change remote addresses
 ```
