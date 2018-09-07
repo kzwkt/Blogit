@@ -119,13 +119,13 @@ git remote -v
 ```
 ### Fetch Last Changes from upstream repo to fork repo
 1. Sync with remote repo
-This will set your upstream to the repository you forked from. Then do this:
+ This will set your upstream to the repository you forked from. Then do this:
 
-`git remote add upstream ORIGINAL_REPOSITORY_URL`
+ `git remote add upstream ORIGINAL_REPOSITORY_URL`
 
-This will fetch all the branches including master from the original repository.
+  This will fetch all the branches including master from the original repository.
 
-`git fetch upstream`  
+  `git fetch upstream`  
 
 Merge this data in your local master branch:
 
