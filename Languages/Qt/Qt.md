@@ -65,7 +65,8 @@ and reOpen the QtCreator.
 ## Install toolchains on arch
 1. download qt-creator-online-installer and download what you want.
 2. install below packages from AUR:
-``` sudo pacman -S android-studio android-ndk android-sdk android-sdk-build-tools android-sdk-platform-tools android-platform android-emulator ```
+``` sudo pacman -S android-studio android-ndk-r17c android-sdk android-sdk-build-tools android-sdk-platform-tools android-platform```
+Tip: note that install only ndk 10e or 17c. other ndk versions have bugs.
 3. Install system Images from AUR:
 ```trizen -S android-google-apis-x86 android-x86-system-image-22 ```
 3. Install android toolchain(arm-linux-gnueabihf-gcc or arm-linux-gnueabihf-gcc-stage1), and xcode toolchain(x-tools-armv6-bin), windows-toolchain(mingw-w64-gcc) and crosstool-ng-git.
