@@ -68,6 +68,7 @@
 9. Qt: Qt Creator
 10. C#: VSCode, MonoDevelope, Rider
 11. AVR IDE: Cross Studio
+12. Uml Tools: StarUML
 
 # Game
 1. Game-Emulator: RetroArch
