@@ -72,9 +72,11 @@ git push -u origin master
 5. Set the new URL using git:
 6. `git remote set-url origin git@github.com:User/project-new.git`
 
+#### See commits in a branch
+`git log master..branchA`
+
 ### Find remote url
 `git remote show origin`
-
 
 ### List Of Remotes
 `git remote -v`
@@ -89,18 +91,13 @@ git push -u origin master
 `git describe --tags`
 
 ### delete local branch
-```
- git branch -d branch_name
- ```
+`git branch -d branch_name`
  
- ### delete remote branch
- ```
- git push <remote_name> :<branch_name>
- ```
- for example:
- ```
- sudo git push origin :release 
- ```
+### delete remote branch
+` git push <remote_name> :<branch_name>`
+ 
+for example:
+`sudo git push origin :release`
 
 ### Change remote addresses
 ```
@@ -117,4 +114,37 @@ git remote -v
 # origin  https://github.com/user/repo2.git (fetch)
 # origin  https://github.com/user/repo2.git (push)
 ```
+### Fetch Last Changes from upstream repo to fork repo
+
+#### Sync with remote repo
+This will set your upstream to the repository you forked from. Then do this:
+
+`git remote add upstream ORIGINAL_REPOSITORY_URL`
+
+This will fetch all the branches including master from the original repository.
+
+`git fetch upstream`  
+
+Merge this data in your local master branch:
+
+`git merge upstream/master`
+
+Push the changes to your forked repository i.e. to origin:
+
+`git push origin master`
+
+Voila! You are done with the syncing the original repository.
+
+#### Get Latest branch from upstream repo
+- Make sure you've pulled the new upstream branch into your local repo:
+  - First, ensure your working tree is clean (commit/stash/revert any changes)
+  - Then, `git fetch upstream` to retrieve the new upstream branch
+
+- Create and switch to a local version of the new upstream branch (newbranch):
+  - `git checkout -b newbranch upstream/newbranch`
+
+- When you're ready to push the new branch to origin:
+  - `git push -u origin newbranch`
+
+The -u switch sets up tracking to the specified remote (in this example, origin)
 
