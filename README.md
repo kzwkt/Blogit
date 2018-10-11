@@ -8,7 +8,10 @@
 
 ## Blog directory
 - [Languages](Languages/)
+    - [C++](Languages/C++/TipsAndTricks.md)
+    - [Go](Languages/Go/Go.md)
     - [MariaDB](Languages/MariaDB/MariaDB.md)
+    - [Octave](Languages/Octave/Octave.md)
     - [PHP](Languages/PHP/PHP.md)
     - [Qt](Languages/Qt/Qt.md)
 - [OS](OS/)
