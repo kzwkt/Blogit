@@ -8,7 +8,7 @@
 - [Generate Persian Pdf](#GeneratePersianPdf/)
 - [See Docs](#SeeDocs/)
 
-<a name="GeneratePersianPdf">Generate Persian Pdf</a>
+##<a name="GeneratePersianPdf">Generate Persian Pdf</a>
 
 ```go
 package main
@@ -40,7 +40,8 @@ func main() {
 }
 ```
 
-<a name="SeeDocs">See Docs</a>
+##<a name="SeeDocs">See Docs</a>
+
 If you read more about builtin funcitons:
 `godoc builtin cap`
 Or, maybe you want to read more about fmt.Println():
