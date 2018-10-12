@@ -43,8 +43,11 @@ func main() {
 ### <a name="SeeDocs">See Docs</a>
 
 If you read more about builtin funcitons:
+
 `godoc builtin cap`
+
 Or, maybe you want to read more about fmt.Println():
+
 `godoc fmt Printf`
 
 <img alt="مجوز کریتیو کامنز" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png">
