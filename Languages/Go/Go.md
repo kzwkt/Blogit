@@ -40,7 +40,7 @@ func main() {
 }
 ```
 
-##<a name="SeeDocs">See Docs</a>
+### <a name="SeeDocs">See Docs</a>
 
 If you read more about builtin funcitons:
 `godoc builtin cap`
