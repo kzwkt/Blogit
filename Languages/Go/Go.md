@@ -4,8 +4,8 @@
 	<br>
 </h1>
 
-## Tips
-- [Generate Persian Pdf](#GeneratePersianPdf/)
+# Tips
+- [Generate Persian Pdf](#GeneratePersianPdf)
 - [See Docs](#SeeDocs/)
 
 ## <a name="GeneratePersianPdf">Generate Persian Pdf</a>
