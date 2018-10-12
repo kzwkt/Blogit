@@ -6,7 +6,7 @@
 
 # Tips
 - [Generate Persian Pdf](#GeneratePersianPdf)
-- [See Docs](#SeeDocs/)
+- [See Docs](#SeeDocs)
 
 ## <a name="GeneratePersianPdf">Generate Persian Pdf</a>
 
