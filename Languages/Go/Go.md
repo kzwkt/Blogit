@@ -8,7 +8,7 @@
 - [Generate Persian Pdf](#GeneratePersianPdf)
 - [See Docs](#SeeDocs)
 
-## <a name="GeneratePersianPdf">Generate Persian Pdf</a>
+### <a name="GeneratePersianPdf">Generate Persian Pdf</a>
 
 ```go
 package main
@@ -47,5 +47,4 @@ If you read more about builtin funcitons:
 Or, maybe you want to read more about fmt.Println():
 `godoc fmt Printf`
 
-[system images](https://aur.archlinux.org/packages/?O=0&K=android+system+image)
 <img alt="مجوز کریتیو کامنز" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png">
