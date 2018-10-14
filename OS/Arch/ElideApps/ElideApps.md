@@ -27,7 +27,7 @@
 24. Virtualization: Virtual Box
 25. Office: WPS, TeX
 26. Bootable-Tools: UnetBootIn
-27. Image-Viewer: Shotwell, Nomacs
+27. Image-Viewer: gThumb, Shotwell, Nomacs
 28. ShareFiles: Primitiveftpd(in Android) and nemo (as ftp client in linux), Send Any Where
 29. Remote-Desktop: AnyDesk, Team Viewer
 30. BlueTooth-Manager: Blueman
