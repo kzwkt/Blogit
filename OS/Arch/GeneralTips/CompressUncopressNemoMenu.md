@@ -1,7 +1,11 @@
-1- Open up terminal and type cd ~/.local/share/nemo/actions/.
+1- Open up terminal and type:
+`cd ~/.local/share/nemo/actions/.`
+
 2- Create a new file/action for Compress by typing nano compress.nemo_action
+
 3- Paste this contents into newly created file.
-  [Nemo Action]
+
+[Nemo Action]
 Active=true
 Name=Compress...
 Comment=compress %N
