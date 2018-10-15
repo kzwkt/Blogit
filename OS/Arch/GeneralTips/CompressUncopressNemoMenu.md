@@ -25,15 +25,17 @@ Extensions=any;
 
 6- Paste this contents into newly created file:
 
-`[Nemo Action]
+```
+[Nemo Action]
 Active=true
 Name=Extract here
 Comment=Extract here
 Exec=file-roller -h %F
 Icon-Name=gnome-mime-application-x-compress
- #Stock-Id=gtk-cdrom
+#Stock-Id=gtk-cdrom
 Selection=Any
-Extensions=zip;7z;ar;cbz;cpio;exe;iso;jar;tar;tar;7z;tar.Z;tar.bz2;tar.gz;tar.lz;tar.lzma;tar.xz;`
+Extensions=zip;7z;ar;cbz;cpio;exe;iso;jar;tar;tar;7z;tar.Z;tar.bz2;tar.gz;tar.lz;tar.lzma;tar.xz;
+```
 
 7- Save the file and exit (CTRL+X, and just Enter).
 
