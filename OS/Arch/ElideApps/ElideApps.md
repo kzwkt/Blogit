@@ -53,7 +53,7 @@
 ## Graphic
 1. 3D-Modeling-And-Animation: Blender
 2. Image-Manipulation: KolourPaint, Gimp, Shotwell
-3. Vector-Tools: InkScape
+3. Vector-Tools: InkScape, GravitDesigner
 4. PhotoShop-Like: Krita
 
 ## Programming Tools
