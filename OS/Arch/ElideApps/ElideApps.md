@@ -21,7 +21,7 @@
 18. Audio-Video-Converter: HandBrake, MkvToolNix, OpenShot
 19. ScreenRecorder: VokoScreen, SimpleScreenRecorder
 20. ScreenCapture: gnomeScreenshot
-21. Calculator: SpeedCrunch, DeepinCalculator
+21. Calculator: LiriCalculator, SpeedCrunch, Galculator, Kcalc, DeepinCalculator
 22. PartitionManager: Gparted
 23. NoteTools: QOwnNotes
 24. Virtualization: Virtual Box
