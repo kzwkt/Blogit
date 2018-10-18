@@ -10,7 +10,7 @@
 7. Music-Player: DeepinMusic, Cantata, Qoud Libet
 8. Text-Editor: VSCode
 9. Terminal-Text-Editor: Vim
-10. System-Monitor: QPS, Gnulium
+10. System-Monitor: Stacer, Gnulium, QPS
 11. Browser: FireFox, GoogleChrome
 12. PDF-Viewer: Okular(ebook-tools for ebooks support)
 13. BitTorrent-Client: Deluge
