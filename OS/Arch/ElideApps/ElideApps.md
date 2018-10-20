@@ -55,6 +55,7 @@
 2. Image-Manipulation: KolourPaint, Gimp, Shotwell
 3. Vector-Tools: InkScape, GravitDesigner
 4. PhotoShop-Like: Krita
+5. photo processor and image organizer: RawTherapee, DarkTable
 
 ## Programming Tools
 1. Source-Control: Git
