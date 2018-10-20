@@ -81,7 +81,7 @@
 
 ## Chat-Clients
 1. IRC-Client: Konversation, HexChat
-2. Messanger: Telegram
+2. Messanger: Telegram, YakYak
 
 ## Config&Utility
 1. Configure-Tools: dConf,Gconf
