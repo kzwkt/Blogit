@@ -52,7 +52,7 @@
 
 ## Graphic
 1. 3D-Modeling-And-Animation: Blender
-2. Image-Manipulation: KolourPaint, Gimp, Shotwell
+2. Image-Manipulation: Gimp, KolourPaint, Shotwell
 3. Vector-Tools: InkScape, GravitDesigner
 4. PhotoShop-Like: Krita
 5. photo processor and image organizer: RawTherapee, DarkTable
