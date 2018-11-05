@@ -72,6 +72,15 @@
 11. AVR IDE: Cross Studio
 12. Uml Tools: StarUML
 
+## Gnome Shell Extensions
+1. gnome-shell-extension-gsconnect
+2. gnome-shell-extension-lockkeys-git
+3. gnome-shell-extension-persian-calendar-git
+4. gnome-shell-extension-radio-git
+5. gnome-shell-extension-show-desktop-button
+6. gnome-shell-extension-suspend-button-git
+7. gnome-shell-extension-topicons-plus-huttli-git
+
 # Game
 1. Game-Emulator: RetroArch
 2. Game-Engine: Unity3D, Unreal Engine
