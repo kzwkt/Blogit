@@ -7,7 +7,7 @@
 4. File-Manager: Nautilus, Nemo, midnight commander(mc)
 َ5. Shell: ZSH
 6. Video-Player: MPV, DeepinMovie
-7. Music-Player: Lollypop, DeepinMusic, Cantata, Qoud Libet
+7. Music-Player: Lollypop, Pantheon-Music, DeepinMusic, Cantata, Qoud Libet
 8. Music Stream app: Auryo, google-musicmanager, Soundnode, spotify
 8. Text-Editor: VSCode
 9. Terminal-Text-Editor: Vim
