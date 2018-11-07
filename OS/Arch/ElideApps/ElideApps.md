@@ -35,6 +35,7 @@
 31. WebCam-Capture: Cheese
 32. Finder: FSearch
 33. ClipBoard-Manager: CopyQ
+34. RSS.Reader: FeedReader
 
 ## Icon-Theme
 1. Papirus icon theme(Icons)
