@@ -36,6 +36,7 @@
 32. Finder: FSearch
 33. ClipBoard-Manager: CopyQ
 34. RSS.Reader: FeedReader
+35. Video editing tools: Kdenlive
 
 ## Icon-Theme
 1. Papirus icon theme(Icons)
