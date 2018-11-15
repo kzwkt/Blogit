@@ -4,14 +4,14 @@
 1. Desktop-Environment: Cinnamon
 2. Windows-Manager: Muffin
 3. Display-Manager: lightdm(lightdm-webkit2-greeter as greeter), SDDM, None(start with startx command)
-4. File-Manager: Nautilus, Nemo, midnight commander(mc)
+4. File-Manager: Nemo, Nautilus, midnight commander(mc)
 َ5. Shell: ZSH
 6. Video-Player: MPV, DeepinMovie
 7. Music-Player: Lollypop, Pantheon-Music, DeepinMusic, Cantata, Qoud Libet
 8. Music Stream app: Auryo, google-musicmanager, Soundnode, spotify
 8. Text-Editor: VSCode
 9. Terminal-Text-Editor: Vim
-10. System-Monitor: Stacer, Gnulium, QPS
+10. System-Monitor: Gnulium, Stacer, QPS
 11. Browser: FireFox, GoogleChrome
 12. PDF-Viewer: Okular(ebook-tools for ebooks support)
 13. BitTorrent-Client: Deluge
