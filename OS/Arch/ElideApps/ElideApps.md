@@ -3,7 +3,7 @@
 
 1. Desktop-Environment: Cinnamon
 2. Windows-Manager: Muffin
-3. Display-Manager: SDDM, None(start with startx command)
+3. Display-Manager: lightdm(lightdm-webkit2-greeter as greeter), SDDM, None(start with startx command)
 4. File-Manager: Nautilus, Nemo, midnight commander(mc)
 َ5. Shell: ZSH
 6. Video-Player: MPV, DeepinMovie
