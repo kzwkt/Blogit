@@ -41,6 +41,12 @@
 
 ## Windows Managers Apps
 1. Appliction Launcher: Synapse, ulauncher, rofi
+2. lock tools: i3lock-fancy-git
+3. show current keyboard layout: xkblayout-state-git
+4. enable numpad on startup: numlockx
+5. bar: i3blocks
+6. set background: feh
+7. composite manager: compton
 
 ## Icon-Theme
 1. Papirus icon theme(Icons)
