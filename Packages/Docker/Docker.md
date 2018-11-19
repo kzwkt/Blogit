@@ -1,12 +1,6 @@
-<h1 align="center">
-	<img width="200" src="AndroidStudio.svg" alt="androidStudio">
-	<br>
-	<br>
-</h1>
-
 ## Index
 - [Introduction](#Introduction)
-- [Install JDK](#installDocker)
+- [install Docker](#installDocker)
     - [Confirm installation](#confirmInstallation)
 - [Start Service](#startService)
 - [Change owner to docker group](#changeOwnerToDocker)
@@ -46,7 +40,7 @@ usermod -a -G docker linarcx
 
 
 ### <a name="setDns">Set DNS</a>
-Docker is filtered in Iran. so you have to use this dns.(set it through you model settings):
+Docker is filtered in Iran. so you have to use this dns provided by [https://shecan.ir/](https://shecan.ir/).(set it globaly in your computer from control panel):
 ```
 178.22.122.100
 ```
