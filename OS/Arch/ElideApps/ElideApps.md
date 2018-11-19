@@ -7,7 +7,7 @@
 4. File-Manager: Nemo, Nautilus, midnight commander(mc)
 َ5. Shell: ZSH
 6. Video-Player: MPV, DeepinMovie
-7. Music-Player: Lollypop, Pantheon-Music, DeepinMusic, Cantata, Qoud Libet
+7. Music-Player: Lollypop, Pantheon-Music, Rhthmbox DeepinMusic, Cantata, Qoud Libet
 8. Music Stream app: Auryo, google-musicmanager, Soundnode, spotify
 8. Text-Editor: VSCode
 9. Terminal-Text-Editor: Vim
@@ -37,6 +37,7 @@
 33. ClipBoard-Manager: CopyQ
 34. RSS.Reader: FeedReader
 35. Video editing tools: Kdenlive
+36. Podcast App: vocal, Rhythmbox
 
 ## Icon-Theme
 1. Papirus icon theme(Icons)
