@@ -1,0 +1,3 @@
+#!/bin/bash
+var=$(xkblayout-state print "%n")
+echo $var
