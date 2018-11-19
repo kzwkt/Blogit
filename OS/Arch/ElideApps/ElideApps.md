@@ -39,6 +39,9 @@
 35. Video editing tools: Kdenlive
 36. Podcast App: vocal, Rhythmbox
 
+## Windows Managers Apps
+1. Appliction Launcher: Synapse, ulauncher, rofi
+
 ## Icon-Theme
 1. Papirus icon theme(Icons)
 2. Paper(Mouse Pointer)
