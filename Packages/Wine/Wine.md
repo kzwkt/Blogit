@@ -1,56 +1,77 @@
 <h1 align="center">
-	<img width="200" src="Vim.svg" alt="Vim">
+	<img width="200" src="Wine.svg" alt="Vim">
 	<br>
 	<br>
 </h1>
 
 ## Index
 - [Installation](#Installation)
-- [Migration](#Migration)
-- [Update Vim-Plug Configuration](#UpdateVimPlugConfiguration)
-- [Backward Compatibility](#BackwardCompatibility)
-- [Loading vim addons](#LoadingVimAddons)
+- [Running Wine under a separate user account](#RunningWineUnderASeparateUserAccount)
+- [Rootless Xorg](#RootlessXorg)
 
 
 ### <a name="Installation">Installation</a>
-install __wine_staging__
+install these packages:
+1. wine_staging
+2. wine_gecko
+3. wine-mono
+4. winetricks
 
-then you can uninstall vim:
-`sudo pacman -Rnsu vim`
+### <a name="RunningWineUnderASeparateUserAccount">Running Wine under a separate user account</a>
 
-### <a name="Migration">Migration</a>
-1. Neovim uses $XDG_CONFIG_HOME/nvim instead of ~/.vim as its main configuration directory and $XDG_CONFIG_HOME/nvim/init.vim instead of ~/.vimrc as its main configuration file.($XDG_CONFIG_HOME==~/.confi)
+It may be desirable to run Wine under a specifically created user account in order to reduce concerns about Windows applications having access to your home directory.
 
-### <a name="UpdateVimPlugConfiguration">Update Vim-Plug Configuration</a>
-udpate vim-plug path from:
+First, create a user account for Wine:
 
-`call plug#begin('~/.vim/plugged')`
+`useradd -m -s /bin/bash wineuser`
 
-to:
+Now switch to another TTY and start your X WM or DE as you normally would or keep reading...
+Note: The following approach only works when enabling root for Xorg. See <a name="RootlessXorg">Rootless Xorg</a> for more information.
 
-`call plug#begin('~/.config/nvim/plugged')`
+Afterwards, in order to open Wine applications using this new user account you need to add the new user to the X server permissions list:
 
+`xhost +SI:localuser:wineuser`
 
-### <a name="Backward Compatibility">BackwardCompatibility</a>
-If you want some lines to specific to each version, you can use an if block in your .vimrc file:
+Finally, you can run Wine via the following command, which uses env to launch Wine with the environment variables it expects:
+
+`sudo -u wineuser env HOME=/home/wineuser USER=wineuser USERNAME=wineuser LOGNAME=wineuser wine arguments`
+
+It is possible to automate the process of running Windows applications with Wine via this method by using a shell script as follows:
 
 ```
-if has('nvim')
-    " Neovim specific commands
-else
-    " Standard vim specific commands
-endif
+/usr/local/bin/runaswine
+----------------------------
+
+#!/bin/bash
+xhost +SI:localuser:wineuser
+sudo -u wineuser env HOME=/home/wineuser USER=wineuser USERNAME=wineuser LOGNAME=wineuser wine "$@"
 ```
 
-### <a name="Loading Vim Addons">LoadingVimAddons</a>
-If you would like to use plugins, syntax definitions, or other addons that are installed for vim, you can add the default vim runtime path to neovim by adding it to the rtp. For example, you could run the following within nvim or add it to your neovim config:
+Wine applications can then be launched via:
 
-`set rtp^=/usr/share/vim/vimfiles/`
+`runaswine "C:\path\to\application.exe"`
 
+
+### <a name="RootlessXorg">Rootless Xorg</a>
+
+Xorg may run with standard user privileges with the help of systemd-logind(8). The requirements for this are:
+
+- Starting X via xinit; display managers are not supported
+- Kernel mode setting; implementations in proprietary display drivers fail auto-detection and require manually setting needs_root_rights = no in /etc/X11/Xwrapper.config.
+
+If you do not fit these requirements, re-enable root rights in /etc/X11/Xwrapper.config:
+
+```
+/etc/X11/Xwrapper.config
+-------------------------
+
+needs_root_rights = yes
+````
 
 Resources
 ---
-1. https://wiki.archlinux.org/index.php/Neovim
+1. https://wiki.archlinux.org/index.php/Wine
+2. https://wiki.archlinux.org/index.php/Xorg#Rootless_Xorg
 
 
 
