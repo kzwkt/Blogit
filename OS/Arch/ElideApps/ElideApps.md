@@ -7,7 +7,7 @@
 4. File-Manager: Nemo, Nautilus, midnight commander(mc)
 َ5. Shell: ZSH
 6. Video-Player: MPV, DeepinMovie
-7. Music-Player: Lollypop, Pantheon-Music, DeepinMusic, Cantata, Qoud Libet
+7. Music-Player: Lollypop, Pantheon-Music, Rhthmbox DeepinMusic, Cantata, Qoud Libet
 8. Music Stream app: Auryo, google-musicmanager, Soundnode, spotify
 8. Text-Editor: VSCode
 9. Terminal-Text-Editor: Vim
@@ -37,6 +37,16 @@
 33. ClipBoard-Manager: CopyQ
 34. RSS.Reader: FeedReader
 35. Video editing tools: Kdenlive
+36. Podcast App: vocal, Rhythmbox
+
+## Windows Managers Apps
+1. Appliction Launcher: Synapse, ulauncher, rofi
+2. lock tools: i3lock-fancy-git
+3. show current keyboard layout: xkblayout-state-git
+4. enable numpad on startup: numlockx
+5. bar: i3blocks
+6. set background: feh
+7. composite manager: compton
 
 ## Icon-Theme
 1. Papirus icon theme(Icons)
