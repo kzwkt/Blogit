@@ -107,12 +107,12 @@ for_window [class="Software-properties-gtk"] floating enable
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1. "
-set $ws2 "2. "
-set $ws3 "3. "
-set $ws4 "4. "
-set $ws5 "5. "
+set $ws2 "2. /"
+set $ws3 "3."
+set $ws4 "4. "
+set $ws5 "5. "
 set $ws6 "6. "
-set $ws7 "7. "
+set $ws7 "7. "
 set $ws8 "8. "
 set $ws9 "9. "
 set $ws10 "10. "
@@ -142,12 +142,12 @@ bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
 assign [class="Nemo"] → $ws1
-assign [class="deepin-terminal"] → $ws2
-assign [class="Firefox"] → $ws3
-assign [class="QtCreator"] → $ws4
-assign [class="GoldenDict"] → $ws5
+assign [class="Deepin-terminal"] → $ws2
+assign [class="Firefox"] → $ws2
+assign [class="QtCreator"] → $ws3
+assign [class="GoldenDict"] → $ws4
+assign [class="Code"] → $ws5
 assign [class="gnulium"] → $ws6
-assign [class="Code"] → $ws7
 assign [class="Rhythmbox"] → $ws10
 
 # class                 border  backgr. text    indicator child_border
@@ -262,7 +262,8 @@ bindsym --release XF86PowerOff exec systemctl suspend
 #~/.config/i3/config/scripts/poweroff.sh
 
 # For_Windows
-for_window [class="Telegram"] floating enable; resize shrink width 10000px; resize grow width 300px; resize shrink height 10000px; resize grow height 400px;
+for_window [class="Telegram"] floating enable; resize shrink width 10000px; resize shrink height 10000px;
+#resize grow width 300px; resize grow height 400px;
 for_window [class="Gthumb"] floating enable;
 for_window [class="mpv"] floating enable;
 for_window [workspace=$ws4] floating enable
