@@ -100,7 +100,11 @@ for_window [class="mpv"] floating enable;
 for_window [class="Gthumb"] floating enable;
 for_window [class="Gnome-calculator"]               floating enable
 for_window [class="Lxappearance"]                   floating enable
+for_window [class="gnulium"]                        floating enable
+for_window [class="stacer"]                         floating enable
 for_window [class="Telegram"] floating enable; resize shrink width 10000px; resize shrink height 10000px;
+#move $ws1; #focus;
+focus_on_window_activation focus
 #resize grow width 300px; resize grow height 400px;
 for_window [workspace=$ws4] floating enable
 #for_window [class="Code"] floating enable;
@@ -111,6 +115,7 @@ for_window [class="Lightdm-gtk-greeter-settings"]   floating enable
 for_window [class="Nm-connection-editor"]           floating enable
 for_window [class="Software-properties-gtk"] floating enable
 
+focus_follows_mouse no
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1. "
@@ -154,7 +159,6 @@ assign [class="Firefox"] → $ws2
 assign [class="QtCreator"] → $ws3
 assign [class="GoldenDict"] → $ws4
 assign [class="Code"] → $ws5
-assign [class="gnulium"] → $ws6
 assign [class="Rhythmbox"] → $ws10
 
 # class                 border  backgr. text    indicator child_border
