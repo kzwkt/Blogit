@@ -38,6 +38,9 @@ bindsym $mod+d exec synapse
 
 workspace_layout tabbed
 
+# If Enable=mouse follow will disable
+#focus_follows_mouse no
+
 # Change Focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
@@ -102,7 +105,7 @@ for_window [class="Gnome-calculator"]               floating enable
 for_window [class="Lxappearance"]                   floating enable
 for_window [class="gnulium"]                        floating enable
 for_window [class="stacer"]                         floating enable
-for_window [class="Telegram"] floating enable; resize shrink width 10000px; resize shrink height 10000px;
+for_window [class="TelegramDesktop"] floating enable; resize shrink width 10000px; resize shrink height 10000px;
 #move $ws1; #focus;
 focus_on_window_activation focus
 #resize grow width 300px; resize grow height 400px;
@@ -115,7 +118,6 @@ for_window [class="Lightdm-gtk-greeter-settings"]   floating enable
 for_window [class="Nm-connection-editor"]           floating enable
 for_window [class="Software-properties-gtk"] floating enable
 
-focus_follows_mouse no
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1. "
