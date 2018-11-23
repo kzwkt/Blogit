@@ -42,26 +42,31 @@
         - [ElideAppsinWindows](OS/Windows/ElideAppsWindows.md)
 - [Packages](Packages/)
     - [AndroidStudio](Packages/AndroidStudio/AndroidStudio.md)
+    - [Clementine](Packages/Clementine.md)
+    - [Git](Packages/Git.md)
+    - [i3](Packages/i3)
+        - [i3blocks.conf](Packages/i3/i3blocks.conf)
+        - [i3 tips](Packages/i3/i3.md)
+        - [i3 config](Packages/i3/config)
+        - [compton config](Packages/i3/compton.conf)
     - [MPV](Packages/MPV)
         - [MPV-Tutorial](Packages/MPV/MPV-Tutorial.md) 
 	- [Tmux](Packages/Tmux)
         - [Tmux-Tutorial](Packages/Tmux/Tmux-Tutorial.md)
         - [TmuxConf](Packages/Tmux/.tmux.conf)
+    - [Tor](Packages/Tor.md)
+    - [VirtualBox](Packages/VirtualBox.md)
     - [Vim](Packages/Vim)
         - [.vimrc](Packages/Vim/.vimrc)
         - [Vim-Tutorial](Packages/Vim/Vim-Tutorial.md)
+    - [VSCode](Packages/VSCode.md)
+    - [YoutubeDL](Packages/YoutubeDL.md)
     - [ZSH](Packages/ZSH)
         - [ZSH-Tutorial](Packages/ZSH/ZSH-Tutorial.md)
         - [ZSH-Config](Packages/ZSH/Config)
             - [.zpreztorc](Packages/ZSH/Config/.zpreztorc)
             - [.zshrc](Packages/ZSH/Config/.zshrc)
-    - [Clementine](Packages/Clementine.md)
-    - [Git](Packages/Git.md)
-    - [Tor](Packages/Tor.md)
-    - [VirtualBox](Packages/VirtualBox.md)
-    - [VSCode](Packages/VSCode.md)
-    - [YoutubeDL](Packages/YoutubeDL.md)
-
+    
 
 ## Contributing
 ![Open PR](https://img.shields.io/github/issues-pr-raw/LinArcX/Blogit.svg?style=flat-square) ![Closed PR](https://img.shields.io/github/issues-pr-closed/LinArcX/Blogit.svg?style=flat-square)
@@ -83,5 +88,3 @@ E-Mail:linarcx@gmail.com
 
 <img alt="مجوز کریتیو کامنز" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png">
 </p>
-
-
