@@ -82,7 +82,7 @@
 9. Qt: Qt Creator
 10. C#: VSCode, MonoDevelope, Rider
 11. AVR IDE: Cross Studio
-12. Uml Tools: StarUML
+12. Uml Tools: StarUML, Umple, Umbrello, Modelio
 
 ## Gnome Shell Extensions
 1. gnome-shell-extension-gsconnect
