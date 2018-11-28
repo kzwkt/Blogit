@@ -9,3 +9,6 @@ You can put all settings in either:
 2. .Xresources
 files. and put all perl scripts in:
 `~/.urxvt/ext`
+
+### configs
+Font: Bitstream Vera Sans Mono
