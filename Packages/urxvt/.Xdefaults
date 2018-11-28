@@ -1,3 +1,15 @@
+# General
+# ========
+#
+# - Icon.
+#
+URxvt.iconFile: /home/linarcx/.icons/128x128terminal.png
+
+#
+# - Custom default window size.
+#
+URxvt.geometry: 100x30
+
 # Scrolling
 # ========
 #
@@ -31,6 +43,18 @@ URxvt.searchable-scrollback: A-Font
 URxvt.depth: 32
 URxvt.background: [80]#000000
 
+#
+#  - fake transparency: true or false (default).
+#
+# that copies the wallpaper to the background of the terminal. (more exactly, the contents of Xorg's root window)
+#URxvt.transparent: true
+#
+#  tint with any color; i.e., blue, red, tomato4, olivedrab2, etc. some nice listings are at [1].
+#URxvt.tintColor: #000000
+#
+#  shading - 0 to 99 darkens, 101 to 200 lightens.
+#  - Don't use with tintColor; just use a darker or lighter color instead.
+#URxvt.shading: 40
 
 # Color
 # ========
