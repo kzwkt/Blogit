@@ -29,7 +29,7 @@ URxvt.searchable-scrollback: A-Font
 #
 # using the composite manager currently running. (xcompmgr, dcompmgr, compiz...)
 URxvt.depth: 32
-URxvt.background: [75]#000000
+URxvt.background: [80]#000000
 
 
 # Color
@@ -134,3 +134,6 @@ xterm*foreground: #d0410f
 xterm*background: #1c1b1a
 xterm*faceName: Monospace
 xterm*faceSize: 11
+URxvt.keysym.C-0: command:\033]710;xft:Hack:size=10:antialias=true\007
+URxvt.keysym.C-1: command:\033]710;xft:Hack:background=[50]#000000\007
+URxvt.keysym.C-2: command:\033]URxvt.background=[90]#000000\007
