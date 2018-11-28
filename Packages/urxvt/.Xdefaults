@@ -1,0 +1,136 @@
+# Scrolling
+# ========
+#
+# - Scrollback.
+#
+# scrollback buffer lines - 65535 is max on most machines (64 is default).
+URxvt.saveLines: 10000
+#
+# - Scrollbar.
+#
+# scrollbar - true (default) or false.
+URxvt.scrollBar: false
+#
+# scrollbar position - left=false (default) or right=true
+#URxvt.scrollBar_right: true
+#
+# scrollbar style - rxvt (default), plain, next, or xterm
+#URxvt.scrollstyle: rxvt
+#
+# quickly search and selection/popups hotkeys - A-s (default).
+URxvt.searchable-scrollback: A-Font
+
+# Background
+# ========
+#
+# - Transparency.
+#
+#  - real transparency.
+#
+# using the composite manager currently running. (xcompmgr, dcompmgr, compiz...)
+URxvt.depth: 32
+URxvt.background: [75]#000000
+
+
+# Color
+# ========
+#
+# - Text/Font color (default is black).
+URxvt.foreground:  #FFFFFF
+#
+# - Background color (prior to tinting) (default is white).
+#URxvt.background:  #000000
+#
+# UnderLine
+#URxvt.underlineColor:   #cc0000
+#
+# - URLs color
+URxvt.colorUL: #7f7f7f
+#
+# - Scheme: Ambience
+#
+# Black.
+URxvt.color0:	#000000
+URxvt.color8:	#AAAAAA
+#
+# Red.
+URxvt.color1:	#cc0000
+URxvt.color9:	#ef2929
+#
+# Green.
+URxvt.color2:	#4E9A06
+URxvt.color10:	#8AE234
+#
+# Yellow.
+URxvt.color3:    #C4A000
+URxvt.color11:   #FCE94F
+#
+# Blue.
+URxvt.color4:    #3465A4
+URxvt.color12:   #729FCF
+#
+# Magenta.
+URxvt.color5:	#75507B
+URxvt.color13:	#AD7FA8
+#
+# Cyan.
+URxvt.color6:    #06989A
+URxvt.color14:   #34E2E2
+#
+# White.
+URxvt.color7:    #D3D7CF
+URxvt.color15: #EEEEEC
+
+# - Clickable URLs in Firefox
+URxvt.perl-ext-common: default,matcher
+URxvt.urlLauncher: firefox
+URxvt.matcher.button: 1
+
+# - Fullscreen switch
+URxvt.perl-ext: default,url-select
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-select.launcher: firefox
+URxvt.url-select.underline: true
+
+# - Copy/Paste
+URxvt.iso14755 : false
+URxvt.perl-ext-common: default,clipboard
+URxvt.keysym.C-C: perl:clipboard:copy
+URxvt.keysym.C-V: perl:clipboard:paste
+URxvt.keysym.C-A-V: perl:clipboard:paste_escaped
+#URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+
+# - Fullscreen
+URxvt.perl-ext-common: default,fullscreen,resize-font
+URxvt.keysym.C-F: perl:fullscreen:switch
+
+# Other Settings
+# Disables the insanely annoying Ctrl+Shift shortcut that enters ISO14755 mode
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.font: xft:Bitstream Vera Sans Mono:pixelsize=12
+URxvt.letterSpace: 0
+*antialias:  true
+*autohint:   true
+URxvt*scrollBar:         false
+URxvt*scrollBar_right:   false
+URxvt*transparent:       false
+# - IRC [3]
+#
+# Bell, Beep
+#URxvt.visualBell:	true
+#URxvt.urgentOnBell: true
+
+! Xterm Config
+xterm*locale: true
+xterm*termName: xterm-256color
+xterm*metaSendsEscape: true
+xterm*eightBitInput: false
+xterm*backarrowKey: false
+xterm*ttyModes: erase ^?
+xterm*saveLines: 2048
+xterm*selectToClipboard: true
+xterm*foreground: #d0410f
+xterm*background: #1c1b1a
+xterm*faceName: Monospace
+xterm*faceSize: 11
