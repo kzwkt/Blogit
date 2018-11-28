@@ -16,8 +16,8 @@
 12. PDF-Viewer: Okular(ebook-tools for ebooks support)
 13. BitTorrent-Client: Deluge
 14. Download-Manager: Persepolise, YoutubeDl
-15. Dock-App: Docky
-16. Terminal: DeepinTerminal, GnomeTerminal
+15. Dock-App: Docky, Plank
+16. Terminal: Tilix, DeepinTerminal, GnomeTerminal
 17. Archive-Manager: FileRoller, nemo-Fileroller, Peazip, nemo-peazip
 18. Audio-Video-Converter: HandBrake, MkvToolNix, OpenShot
 19. ScreenRecorder: VokoScreen, SimpleScreenRecorder
@@ -82,7 +82,7 @@
 9. Qt: Qt Creator
 10. C#: VSCode, MonoDevelope, Rider
 11. AVR IDE: Cross Studio
-12. Uml Tools: StarUML
+12. Uml Tools: StarUML, Umple, Umbrello, Modelio
 
 ## Gnome Shell Extensions
 1. gnome-shell-extension-gsconnect
