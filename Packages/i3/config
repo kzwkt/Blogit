@@ -34,12 +34,22 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
 # Start ulauncher
-bindsym $mod+d exec synapse
+bindsym $mod+d exec rofi -show drun # synapse
+bindsym $mod+Shift+d exec rofi -show run
 
+# When press the powerbutton, system will suspend
+bindsym --release XF86PowerOff exec systemctl suspend
+#~/.config/i3/config/scripts/poweroff.sh
+
+# Active Focus when window activate
+focus_on_window_activation focus
+
+# Float all windows in workspace4
+for_window [workspace=$ws4] floating enable
+
+# Default workspace layout
 workspace_layout tabbed
 
-# If Enable=mouse follow will disable
-#focus_follows_mouse no
 
 # Change Focus
 bindsym $mod+j focus left
@@ -88,8 +98,6 @@ bindsym $mod+space focus mode_toggle
 # focus the parent container
 bindsym $mod+a focus parent
 
-# focus the child container
-#bindsym $mod+d focus child
 # set specific windows to floating mode
 
 # For_Windows
@@ -97,39 +105,34 @@ for_window [window_role="app"]                      floating enable
 for_window [window_role="pop-up"]                   floating enable
 for_window [window_role="task_dialog"]              floating enable
 for_window [title="Preferences$"]                   floating enable
+for_window [class="mpv"]                            floating enable;
 for_window [class="Menu"]                           floating enable
-for_window [class="File-roller"]                    floating enable
-for_window [class="mpv"] floating enable;
-for_window [class="Gthumb"] floating enable;
-for_window [class="Gnome-calculator"]               floating enable
-for_window [class="Lxappearance"]                   floating enable
-for_window [class="gnulium"]                        floating enable
 for_window [class="stacer"]                         floating enable
-for_window [class="TelegramDesktop"] floating enable; resize shrink width 10000px; resize shrink height 10000px;
-#move $ws1; #focus;
-focus_on_window_activation focus
-#resize grow width 300px; resize grow height 400px;
-for_window [workspace=$ws4] floating enable
-#for_window [class="Code"] floating enable;
-for_window [class="Gcolor2"]                        floating enable
+for_window [class="Gthumb"]                         floating enable;
 for_window [class="Gkamus"]                         floating enable
+for_window [class="Gcolor2"]                        floating enable
+for_window [class="gnulium"]                        floating enable
 for_window [class="Go-for-it"]                      floating enable
-for_window [class="Lightdm-gtk-greeter-settings"]   floating enable
+for_window [class="File-roller"]                    floating enable
+for_window [class="Lxappearance"]                   floating enable
+for_window [class="Gnome-calculator"]               floating enable
 for_window [class="Nm-connection-editor"]           floating enable
-for_window [class="Software-properties-gtk"] floating enable
+for_window [class="Software-properties-gtk"]        floating enable
+for_window [class="Lightdm-gtk-greeter-settings"]   floating enable
+for_window [class="TelegramDesktop"]                floating enable; resize shrink width 10000px; resize shrink height 10000px;
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1. "
-set $ws2 "2.  / "
-set $ws3 "3."
-set $ws4 "4. "
-set $ws5 "5. "
-set $ws6 "6. "
+set $ws1 "1.  .  .  "
+set $ws2 "2. "
+set $ws3 "3. "
+set $ws4 "4. "
+set $ws5 "5. "
+set $ws6 "6. "
 set $ws7 "7. "
 set $ws8 "8. "
 set $ws9 "9. "
-set $ws10 "10. "
+set $ws10 "10. "
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -156,12 +159,12 @@ bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
 assign [class="Nemo"] → $ws1
-assign [class="Deepin-terminal"] → $ws2
-assign [class="Firefox"] → $ws2
-assign [class="QtCreator"] → $ws3
-assign [class="GoldenDict"] → $ws4
-assign [class="Code"] → $ws5
-assign [class="Rhythmbox"] → $ws10
+assign [class="URxvt"] → $ws1
+assign [class="Firefox"] → $ws1
+assign [class="QtCreator"] → $ws2
+assign [class="GoldenDict"] → $ws3
+assign [class="Code"] → $ws4
+assign [class="VirtualBox Manager"] → $ws5
 
 # class                 border  backgr. text    indicator child_border
 client.focused          #2b83a6 #2b83a6 #ffffff #dddddd   #2b83a6
@@ -239,16 +242,17 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #d
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 
 # Media player controls
-bindsym XF86AudioPause exec rhythmbox-client --play-pause
-bindsym XF86AudioNext exec rhythmbox-client --next
-bindsym XF86AudioPrev exec rhythmbox-client --previous
-bindsym Alt+= exec rhythmbox-client --seek 10
-bindsym Control+Alt+= exec rhythmbox-client --seek -10
-#bindsym XF86AudioPause exec playerctl play-pause
-#bindsym XF86AudioNext exec playerctl next
-#bindsym XF86AudioPrev exec playerctl previous
+bindsym XF86AudioPause exec mpc toggle
+bindsym XF86AudioNext exec mpc next
+bindsym XF86AudioPrev exec mpc prev
+bindsym Alt+= exec mpc seek +10
+bindsym Control+Alt+= exec mpc seek -10
 
-# Sreen brightness controls
+# Change Transparency of terminal
+bindsym Control+space exec transset-df --inc 0.1 --name urxvt --no-regex
+bindsym Control+Shift+space exec transset-df --dec 0.1 --name urxvt --no-regex
+
+# Sreen Brightness controls
 bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
 bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
 
@@ -260,7 +264,7 @@ bindsym Control+Print exec gnome-screenshot -i
 bindsym button3 floating toggle
 bindsym $mod+button3 floating toggle
 
-# Open calculator with his multimedia key
+# Open Calculator
 bindsym XF86Calculator exec gnome-calculator
 
 # On/Off Num_Lock/Caps_Lock
@@ -270,21 +274,18 @@ bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 # On/Off LockScreen
 bindsym $mod+i exec i3lock-fancy
 
-# When press the powerbutton, system will suspend
-bindsym --release XF86PowerOff exec systemctl suspend
-#~/.config/i3/config/scripts/poweroff.sh
-
-
 # Startup applications
+exec --no-startup-id numlockx on
+exec_always feh --bg-fill /mnt/D/Images/jack.jpg
+exec_always compton #-b --config ~/.config/compton.conf
+exec_always nm-applet
+exec_always ncmpcpp
+
 exec nemo
+exec urxvt
 exec firefox
-exec deepin-terminal
 exec copyq
 #sh -c "(sleep 2; copyq hide) & copyq"
-exec --no-startup-id numlockx on
-exec_always feh --bg-fill /mnt/E/Downloads/winter_is_coming.jpg
-exec_always compton -b --config ~/.config/compton.conf
-exec_always nm-applet
 
 #################### Garbage ######################
 # Touchpad controls
@@ -318,4 +319,29 @@ exec_always nm-applet
 ##        status_command i3status
 ##status_command i3blocks -c ~/.config/i3/i3blocks.conf
 #        position bottom
+
+
+#bindsym Control+space exec transset-df --inc 0.1 -p
+#bindsym Control+Shift+space exec transset-df --dec 0.1 -p
+#bindsym --release button2 exec transset-df --dec 0.1 --name urxvt --no-regex
+#bindsym button2 exec transset-df --inc 0.1 --name urxvt --no-regex
+#bindsym XF86AudioPause exec rhythmbox-client --play-pause
+#bindsym XF86AudioNext exec rhythmbox-client --next
+#bindsym XF86AudioPrev exec rhythmbox-client --previous
+#bindsym Alt+= exec rhythmbox-client --seek 10
+#bindsym Control+Alt+= exec rhythmbox-client --seek -10
+#bindsym XF86AudioPause exec playerctl play-pause
+#bindsym XF86AudioNext exec playerctl next
+#bindsym XF86AudioPrev exec playerctl previous
 #}
+
+
+#move $ws1; #focus;
+#resize grow width 300px; resize grow height 400px;
+#for_window [class="Code"] floating enable;
+
+# focus the child container
+#bindsym $mod+d focus child
+
+# If Enable=mouse follow will disable
+#focus_follows_mouse no
