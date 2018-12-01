@@ -17,7 +17,7 @@
 13. BitTorrent-Client: Deluge
 14. Download-Manager: Persepolise, YoutubeDl
 15. Dock-App: Docky, Plank
-16. Terminal: Tilix, DeepinTerminal, GnomeTerminal
+16. Terminal: urxvt, termite, Tilix, DeepinTerminal, GnomeTerminal
 17. Archive-Manager: FileRoller, nemo-Fileroller, Peazip, nemo-peazip
 18. Audio-Video-Converter: HandBrake, MkvToolNix, OpenShot
 19. ScreenRecorder: VokoScreen, SimpleScreenRecorder
