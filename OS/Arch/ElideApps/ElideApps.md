@@ -5,7 +5,7 @@
 2. Windows-Manager: Muffin
 3. Display-Manager: lightdm(lightdm-webkit2-greeter as greeter), SDDM, None(start with startx command)
 4. File-Manager: Nemo, Nautilus, midnight commander(mc)
-َ5. Shell: ZSH
+5. Shell: ZSH
 6. Video-Player: MPV, DeepinMovie
 7. Music-Player: Lollypop, Pantheon-Music, Rhthmbox DeepinMusic, Cantata, Qoud Libet
 8. Music Stream app: Auryo, google-musicmanager, Soundnode, spotify
@@ -22,7 +22,7 @@
 18. Audio-Video-Converter: HandBrake, MkvToolNix, OpenShot
 19. ScreenRecorder: VokoScreen, SimpleScreenRecorder
 20. ScreenCapture: gnomeScreenshot
-21. Calculator: GnomeCalculator, SpeedCrunch, LiriCalculator, Galculator, Kcalc, DeepinCalculator
+21. Calculator: Use Python(KISS!), GnomeCalculator, SpeedCrunch, LiriCalculator, Galculator, Kcalc, DeepinCalculator
 22. PartitionManager: Gparted
 23. NoteTools: QOwnNotes
 24. Virtualization: Virtual Box
@@ -108,9 +108,9 @@
 ## Config&Utility
 1. Configure-Tools: dConf,Gconf
 2. Font-Viewer: gnomeFontViewer
-3. Charachter-Viewer: kcharselect 
+3. Charachter-Viewer: kcharselect
 4. System-Information: KinfoCenter
-5. Log-Utility: INex, KSystemLog 
+5. Log-Utility: INex, KSystemLog
 6. ISO-Utility: AcetoneIso
 7. View Packages: pkgbrowser
 8. Aur-Helper: aurman

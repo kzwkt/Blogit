@@ -45,7 +45,7 @@ bindsym --release XF86PowerOff exec systemctl suspend
 focus_on_window_activation focus
 
 # Float all windows in workspace4
-for_window [workspace=$ws4] floating enable
+for_window [workspace=$ws2] floating enable
 
 # Default workspace layout
 workspace_layout tabbed
@@ -115,7 +115,6 @@ for_window [class="gnulium"]                        floating enable
 for_window [class="Go-for-it"]                      floating enable
 for_window [class="File-roller"]                    floating enable
 for_window [class="Lxappearance"]                   floating enable
-for_window [class="Gnome-calculator"]               floating enable
 for_window [class="Nm-connection-editor"]           floating enable
 for_window [class="Software-properties-gtk"]        floating enable
 for_window [class="Lightdm-gtk-greeter-settings"]   floating enable
@@ -264,9 +263,6 @@ bindsym Control+Print exec gnome-screenshot -i
 bindsym button3 floating toggle
 bindsym $mod+button3 floating toggle
 
-# Open Calculator
-bindsym XF86Calculator exec gnome-calculator
-
 # On/Off Num_Lock/Caps_Lock
 bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
 bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
@@ -275,21 +271,30 @@ bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
 bindsym $mod+i exec i3lock-fancy
 
 # Startup applications
+exec urxvt
+
 exec --no-startup-id numlockx on
 exec_always feh --bg-fill /mnt/D/Images/jack.jpg
 exec_always compton #-b --config ~/.config/compton.conf
 exec_always nm-applet
 exec_always ncmpcpp
+exec sh -c "mpc load Irani"
+
+#exec --no-startup-id mpc clear && mpc load Favorites
+#exec --no-startup-id /usr/bin/mpc load /home/linarcx/.config/mpd/playlists/Favorites
+#exec mpc load Favorites
+#exec --no-startup-id mpc load Favorites
+#mpc load Favorites
 
 exec nemo
-exec urxvt
 exec firefox
 exec copyq
-#sh -c "(sleep 2; copyq hide) & copyq"
 
 #################### Garbage ######################
 # Touchpad controls
 # bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
+
+#sh -c "(sleep 2; copyq hide) & copyq"
 
 #exec "setxkbmap -layout us,fa"
 #exec "setxkbmap -option 'grp:alt_shift_toggle'"
@@ -345,3 +350,6 @@ exec copyq
 
 # If Enable=mouse follow will disable
 #focus_follows_mouse no
+
+# Open Calculator
+#bindsym XF86Calculator exec gnome-calculator
