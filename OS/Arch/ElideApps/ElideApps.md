@@ -1,13 +1,13 @@
 
 ## General
 
-1. Desktop-Environment: Cinnamon
-2. Windows-Manager: Muffin
-3. Display-Manager: lightdm(lightdm-webkit2-greeter as greeter), SDDM, None(start with startx command)
+1. Desktop-Environment: Gnome, Cinnamon, Deepin
+2. Windows-Manager: i3wm, dwm, openbox, Muffin
+3. Display-Manager: GDM, lightdm(lightdm-webkit2-greeter as greeter), SDDM, None(start with startx command)
 4. File-Manager: Nemo, Nautilus, midnight commander(mc)
 5. Shell: ZSH
 6. Video-Player: MPV, DeepinMovie
-7. Music-Player: Lollypop, Pantheon-Music, Rhthmbox DeepinMusic, Cantata, Qoud Libet
+7. Music-Player: mpd/mpc/ncmpcpp(KISS), Lollypop, Pantheon-Music, Rhthmbox DeepinMusic, Cantata, Qoud Libet
 8. Music Stream app: Auryo, google-musicmanager, Soundnode, spotify
 8. Text-Editor: VSCode
 9. Terminal-Text-Editor: Vim
@@ -17,18 +17,18 @@
 13. BitTorrent-Client: Deluge
 14. Download-Manager: Persepolise, YoutubeDl
 15. Dock-App: Docky, Plank
-16. Terminal: urxvt, termite, Tilix, DeepinTerminal, GnomeTerminal
+16. Terminal: urxvt, Termite, Tilix, DeepinTerminal, GnomeTerminal
 17. Archive-Manager: FileRoller, nemo-Fileroller, Peazip, nemo-peazip
 18. Audio-Video-Converter: HandBrake, MkvToolNix, OpenShot
 19. ScreenRecorder: VokoScreen, SimpleScreenRecorder
 20. ScreenCapture: gnomeScreenshot
 21. Calculator: Use Python(KISS!), GnomeCalculator, SpeedCrunch, LiriCalculator, Galculator, Kcalc, DeepinCalculator
 22. PartitionManager: Gparted
-23. NoteTools: QOwnNotes
+23. NoteTools: Vim+Tmux(KISS!), QOwnNotes
 24. Virtualization: Virtual Box
-25. Office: WPS, TeX
+25. Office: LibreOffice, WPS, TeX
 26. Bootable-Tools: UnetBootIn
-27. Image-Viewer: gThumb, Shotwell, Nomacs
+27. Image-Viewer: feh(view)/gimp(edit, crop, etc...)(KISS), gThumb, Shotwell, Nomacs
 28. ShareFiles: Primitiveftpd(in Android) and nemo (as ftp client in linux), Send Any Where
 29. Remote-Desktop: AnyDesk, Team Viewer
 30. BlueTooth-Manager: Blueman
@@ -40,28 +40,13 @@
 36. Podcast App: vocal, Rhythmbox
 
 ## Windows Managers Apps
-1. Appliction Launcher: Synapse, ulauncher, rofi
+1. Appliction Launcher: Rofi, Synapse, ulauncher
 2. lock tools: i3lock-fancy-git
 3. show current keyboard layout: xkblayout-state-git
 4. enable numpad on startup: numlockx
 5. bar: i3blocks
 6. set background: feh
 7. composite manager: compton
-
-## Icon-Theme
-1. Papirus icon theme(Icons)
-2. Paper(Mouse Pointer)
-3. arc-solid-gtk-theme(Controls)
-4. osx-arc-shadow(Windows Border, Desktop)
-5. deepin-gtk-theme
-
-## Fonts
-1. awesome-terminal-fonts
-2. persian-fonts
-3. ttf-bitstream-vera
-4. ttf-liberation
-5. ttf-mac-fonts
-6. ttf-ubuntu-font-family
 
 ## Graphic
 1. 3D-Modeling-And-Animation: Blender
@@ -83,15 +68,6 @@
 10. C#: VSCode, MonoDevelope, Rider
 11. AVR IDE: Cross Studio
 12. Uml Tools: StarUML, Umple, Umbrello, Modelio
-
-## Gnome Shell Extensions
-1. gnome-shell-extension-gsconnect
-2. gnome-shell-extension-lockkeys-git
-3. gnome-shell-extension-persian-calendar-git
-4. gnome-shell-extension-radio-git
-5. gnome-shell-extension-show-desktop-button
-6. gnome-shell-extension-suspend-button-git
-7. gnome-shell-extension-topicons-plus-huttli-git
 
 # Game
 1. Game-Emulator: RetroArch
@@ -115,3 +91,27 @@
 7. View Packages: pkgbrowser
 8. Aur-Helper: aurman
 9. Terminal-Multiplexer: Tmux
+
+## Gnome Shell Extensions
+1. gnome-shell-extension-gsconnect
+2. gnome-shell-extension-lockkeys-git
+3. gnome-shell-extension-persian-calendar-git
+4. gnome-shell-extension-radio-git
+5. gnome-shell-extension-show-desktop-button
+6. gnome-shell-extension-suspend-button-git
+7. gnome-shell-extension-topicons-plus-huttli-git
+
+## Icon-Theme
+1. Papirus icon theme(Icons)
+2. Paper(Mouse Pointer)
+3. arc-solid-gtk-theme(Controls)
+4. osx-arc-shadow(Windows Border, Desktop)
+5. deepin-gtk-theme
+
+## Fonts
+1. awesome-terminal-fonts
+2. persian-fonts
+3. ttf-bitstream-vera
+4. ttf-liberation
+5. ttf-mac-fonts
+6. ttf-ubuntu-font-family
