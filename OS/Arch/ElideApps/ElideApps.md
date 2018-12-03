@@ -102,10 +102,10 @@
 7. gnome-shell-extension-topicons-plus-huttli-git
 
 ## Icon-Theme
-1. Papirus icon theme(Icons)
-2. Paper(Mouse Pointer)
-3. arc-solid-gtk-theme(Controls)
-4. osx-arc-shadow(Windows Border, Desktop)
+1. Osx-Arc-Shadow(Windows Border, Desktop)
+2. Papirus icon theme(Icons)
+3. Paper(Mouse Pointer)
+4. arc-solid-gtk-theme(Controls)
 5. deepin-gtk-theme
 
 ## Fonts
