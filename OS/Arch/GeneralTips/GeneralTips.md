@@ -21,6 +21,18 @@ source ~/.profile
 
 > Add varialbe this format: `ABC="123";`
 
+### Show Persian words in terminal
+Install these two packages first:
+1. fribidi
+2. bicon-git
+
+Then add these two line to end of your terminal.destkop file(in /usr/share/applications):
+```
+echo 'Terminal=true' >> /usr/share/applications/xfce4-terminal.desktop
+echo 'Exec=/usr/bin/bicon' >> /usr/share/applications/xfce4-terminal.desktop
+```
+Restart Terminal:
+`source ~/.zshrc`
 ### Create xorg.conf
 xorg.conf
 
@@ -32,7 +44,7 @@ the output is something like this:
 00:02.0 VGA compatible controller: Intel Corporation 2nd Generation Core Processor Family Integrated Graphics Controller (rev 09)
 01:00.0 VGA compatible controller: NVIDIA Corporation GF108M [GeForce GT 540M] (rev a1)
 ```
-2. Install the ‍‍`mesa` package, which provides the DRI driver for 3D acceleration. 
+2. Install the ‍‍`mesa` package, which provides the DRI driver for 3D acceleration.
 3. Nvidia: For the DDX driver (which provides 2D acceleration in Xorg), install the `xf86-video-nouveau` package.
 4. Intel: For the DDX driver (which provides 2D acceleration in Xorg), install the `xf86-video-intel` package.
 5. `xrandr --listproviders`
@@ -64,7 +76,7 @@ restart the computer and go to next step.
 7. `DRI_PRIME=1 glxinfo | grep "OpenGL renderer"`
 8. Run Your App with: `DRI_PRIME=1 <application_executable>`
 
-Tips: All nouveau kernel modules are here : 
+Tips: All nouveau kernel modules are here :
 ```
 usr/lib/modules/4.1.13-1-lts/kernel/drivers/gpu/drm/nouveau/
 usr/lib/modules/4.1.13-1-lts/kernel/drivers/gpu/drm/nouveau/nouveau.ko.gz
@@ -114,7 +126,7 @@ Section "Device"
 EndSection
 ```
 
-#### Test Tearing 
+#### Test Tearing
 https://www.youtube.com/watch?v=5xkNy9gfKOg
 
 #### Modesettings
