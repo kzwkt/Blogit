@@ -7,8 +7,8 @@
 4. File-Manager: Ranger, Nemo, Nautilus, midnight commander(mc)
 5. Shell: ZSH
 6. Video-Player: MPV, DeepinMovie
-7. Music-Player: mpd/mpc/Cantata, mpd/mpc/ncmpcpp(KISS), Lollypop, Pantheon-Music, Rhthmbox DeepinMusic, Qoud Libet
-8. Music Stream app: Auryo, google-musicmanager, Soundnode, spotify
+7. Music-Player: mpd/mpc/Cantata, mpd/mpc/ncmpcpp(KISS), Lollypop, Pantheon-Music, Rhthmbox, DeepinMusic, Qoud Libet
+8. Music Stream app: Cantata, Auryo, google-musicmanager, Soundnode, spotify
 8. Text-Editor: VSCode
 9. Terminal-Text-Editor: Vim
 10. System-Monitor: Gnulium, Stacer, QPS
