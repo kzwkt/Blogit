@@ -7,7 +7,7 @@
 4. File-Manager: Ranger, Nemo, Nautilus, midnight commander(mc)
 5. Shell: ZSH
 6. Video-Player: MPV, DeepinMovie
-7. Music-Player: mpd/mpc/ncmpcpp(KISS), Lollypop, Pantheon-Music, Rhthmbox DeepinMusic, Cantata, Qoud Libet
+7. Music-Player: mpd/mpc/Cantata, mpd/mpc/ncmpcpp(KISS), Lollypop, Pantheon-Music, Rhthmbox DeepinMusic, Qoud Libet
 8. Music Stream app: Auryo, google-musicmanager, Soundnode, spotify
 8. Text-Editor: VSCode
 9. Terminal-Text-Editor: Vim
@@ -37,7 +37,7 @@
 33. ClipBoard-Manager: CopyQ
 34. RSS.Reader: Greg, FeedReader
 35. Video editing tools: Kdenlive
-36. Podcast App: Greg, vocal, Rhythmbox
+36. Podcast App: Cantata, Greg, vocal, Rhythmbox
 
 ## Windows Managers Apps
 1. Appliction Launcher: Rofi, Synapse, ulauncher
