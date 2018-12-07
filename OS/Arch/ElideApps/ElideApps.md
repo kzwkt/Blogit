@@ -40,7 +40,7 @@
 36. Podcast App: Cantata, Greg, vocal, Rhythmbox
 
 ## Light apps
-1. Browsers: qutebrowser, vimb, surf, Uzbl, luakit, dwb, next, xxxterm
+1. Browsers: qutebrowser, dwb, vimb, Vimprobable, surf, Uzbl, luakit, next, xxxterm
 
 ## Windows Managers Apps
 1. Appliction Launcher: Rofi, Synapse, ulauncher
