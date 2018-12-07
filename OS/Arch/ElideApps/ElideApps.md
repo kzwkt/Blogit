@@ -12,7 +12,7 @@
 8. Text-Editor: VSCode
 9. Terminal-Text-Editor: Vim
 10. System-Monitor: Gnulium, Stacer, QPS
-11. Browser: FireFox, GoogleChrome
+11. Browser: FireFox, qutebrowser, GoogleChrome
 12. PDF-Viewer: Okular(ebook-tools for ebooks support)
 13. BitTorrent-Client: Deluge
 14. Download-Manager: Persepolise, YoutubeDl
@@ -38,6 +38,9 @@
 34. RSS.Reader: Greg, FeedReader
 35. Video editing tools: Kdenlive
 36. Podcast App: Cantata, Greg, vocal, Rhythmbox
+
+## Light apps
+1. Browsers: qutebrowser, vimb, surf, Uzbl, luakit, dwb, next, xxxterm
 
 ## Windows Managers Apps
 1. Appliction Launcher: Rofi, Synapse, ulauncher
