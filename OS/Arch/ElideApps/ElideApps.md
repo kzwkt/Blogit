@@ -34,7 +34,7 @@
 30. BlueTooth-Manager: Blueman
 31. WebCam-Capture: Cheese
 32. Finder: FSearch
-33. ClipBoard-Manager: CopyQ
+33. ClipBoard-Manager: Parcellite, CopyQ
 34. RSS.Reader: Greg, FeedReader
 35. Video editing tools: Kdenlive
 36. Podcast App: Cantata, Greg, vocal, Rhythmbox
