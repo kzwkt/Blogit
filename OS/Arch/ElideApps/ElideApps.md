@@ -13,7 +13,7 @@
 9. Terminal-Text-Editor: Vim
 10. System-Monitor: Gnulium, Stacer, QPS
 11. Browser: FireFox, qutebrowser, GoogleChrome
-12. PDF-Viewer: Okular(ebook-tools for ebooks support)
+12. PDF-Viewer: zathura, zathura-pdf-mupdf, Okular(ebook-tools for ebooks support)
 13. BitTorrent-Client: Deluge
 14. Download-Manager: Persepolise, YoutubeDl
 15. Dock-App: Docky, Plank
