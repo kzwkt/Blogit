@@ -1,0 +1,82 @@
+## Files ##
+mpd_port = "6600"
+mpd_host = "localhost"
+mpd_crossfade_time = "5"
+mpd_connection_timeout = "5"
+mpd_music_dir = "/mnt/D/Music"
+ncmpcpp_directory  = ~/.ncmpcpp
+lyrics_directory  = ~/.ncmpcpp/lyrics
+
+## Playlist ##
+volume_color = "red"
+colors_enabled = "yes"
+autocenter_mode = "yes"
+statusbar_color = "white"
+progressbar_color = "cyan"
+ignore_leading_the = "yes"
+main_window_color = "white"
+header_window_color = "cyan"
+active_window_border = "blue"
+browser_display_mode = "columns"
+playlist_display_mode = "columns"
+follow_now_playing_lyrics = "yes"
+playlist_show_remaining_time = "yes"
+playlist_disable_highlight_delay = "0"
+song_columns_list_format = "(10)[blue]{l} (30)[green]{a} (30)[magenta]{b} (50)[yellow]{t}"
+
+user_interface = "alternative"
+default_place_to_search_in = "database"
+alternative_header_second_line_format = "{{$6%b$9}{ [$6%y$9]}}|{%D}"
+song_list_format = "{$3%n │ $9}{$7%a - $9}{$5%t$9}|{$8%f$9}$R{$6 │ %b$9}{$3 │ %l$9}"
+alternative_header_first_line_format = "$0$aqqu$/a {$7%a - $9}{$5%t$9}|{$8%f$9} $0$atqq$/a$9"
+
+# visualizer
+visualizer_look = "+|"
+visualizer_in_stereo = "yes"
+visualizer_sync_interval = "12"
+visualizer_output_name = "my_fifo"
+visualizer_fifo_path = "/tmp/mpd.fifo"
+visualizer_type = "spectrum" (spectrum/wave)
+
+## Navigation ##
+lines_scrolled = "2"
+cyclic_scrolling = "yes"
+header_text_scrolling = "yes"
+jump_to_now_playing_song_at_start = "yes"
+
+## Other ##
+system_encoding = "utf-8"
+regular_expressions = "extended"
+
+## Selected tracks ##
+selected_item_prefix = "* "
+discard_colors_if_item_is_selected = "no"
+
+## Seeking ##
+seek_time = "1"
+incremental_seeking = "yes"
+
+## Visivility ##
+centered_cursor = "yes"
+header_visibility = "yes"
+titles_visibility = "yes"
+progressbar_look =  "=>-"
+now_playing_prefix = "> "
+statusbar_visibility = "yes"
+progressbar_elapsed_color = "white"
+song_status_format = " $2%a $4⟫$3⟫ $8%t $4⟫$3⟫ $5%b "
+
+# Misc
+empty_tag_marker = ""
+display_bitrate = "yes"
+
+# Garbages
+# enable_window_title = "no"
+#fancy_scrolling = "yes"
+#progressbar_boldness = "yes"
+#visualizer_type = "wave" (spectrum/wave)
+#display_screens_numbers_on_start = "yes"
+#lyrics_database = "1"
+#main_window_highlight_color =  "blue"
+#user_interface =   "classic"
+#active_column_color = "cyan"
