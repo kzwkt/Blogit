@@ -18,7 +18,7 @@
 14. Download-Manager: Persepolise, YoutubeDl
 15. Dock-App: Docky, Plank
 16. Terminal: Konsole, urxvt, Termite, Tilix, DeepinTerminal, GnomeTerminal
-17. Archive-Manager: FileRoller, nemo-Fileroller, Peazip, nemo-peazip
+17. Archive-Manager: atool, FileRoller, nemo-Fileroller, Peazip, nemo-peazip
 18. Audio-Video-Converter: HandBrake, MkvToolNix, OpenShot
 19. ScreenRecorder: VokoScreen, SimpleScreenRecorder
 20. ScreenCapture: gnomeScreenshot
@@ -33,7 +33,7 @@
 29. Remote-Desktop: AnyDesk, Team Viewer
 30. BlueTooth-Manager: Blueman
 31. WebCam-Capture: Cheese
-32. Finder: FSearch
+32. Finder: fzf, FSearch
 33. ClipBoard-Manager: Parcellite, CopyQ
 34. RSS.Reader: Greg, FeedReader
 35. Video editing tools: Kdenlive
