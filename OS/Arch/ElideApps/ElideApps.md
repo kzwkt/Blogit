@@ -33,7 +33,7 @@ im2. Windows-Manager: i3wm, dwm, openbox, Muffin
 29. Remote-Desktop: AnyDesk, Team Viewer
 30. BlueTooth-Manager: Blueman
 31. WebCam-Capture: Cheese
-32. Finder: fzf, FSearch
+32. Finder: fzf, FSearch 
 33. ClipBoard-Manager: Parcellite, CopyQ
 34. RSS.Reader: Greg, FeedReader
 35. Video editing tools: Kdenlive
