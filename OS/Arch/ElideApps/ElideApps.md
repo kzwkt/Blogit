@@ -26,7 +26,7 @@ im2. Windows-Manager: i3wm, dwm, openbox, Muffin
 22. PartitionManager: Gparted
 23. NoteTools: Vim+Tmux(KISS!), QOwnNotes
 24. Virtualization: Virtual Box
-25. Office: word-processor(vim+vscode+pandoc+mardkown+LaTeX)-spreadsheet()-presentation(), LibreOffice, WPS, TeX
+25. Office: word-processor(vim+vscode+pandoc+mardkown+LaTeX)-spreadsheet(sc-im)-presentation(latex), LibreOffice, WPS, TeX
 26. Bootable-Tools: UnetBootIn
 27. Image-Viewer: feh(view)/gimp(edit, crop, etc...)(KISS), gThumb, Shotwell, Nomacs
 28. ShareFiles: Kde-Connect, Primitiveftpd(in Android) and nemo (as ftp client in linux), Send Any Where
