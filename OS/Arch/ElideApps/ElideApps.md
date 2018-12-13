@@ -2,7 +2,7 @@
 ## General
 
 1. Desktop-Environment: Gnome, Cinnamon, Deepin
-2. Windows-Manager: i3wm, dwm, openbox, Muffin
+im2. Windows-Manager: i3wm, dwm, openbox, Muffin
 3. Display-Manager: GDM, lightdm(lightdm-webkit2-greeter as greeter), SDDM, None(start with startx command)
 4. File-Manager: Ranger, Nemo, Nautilus, midnight commander(mc)
 5. Shell: ZSH
@@ -26,7 +26,7 @@
 22. PartitionManager: Gparted
 23. NoteTools: Vim+Tmux(KISS!), QOwnNotes
 24. Virtualization: Virtual Box
-25. Office: LibreOffice, WPS, TeX
+25. Office: word-processor(vim+vscode+pandoc+mardkown+LaTeX)-spreadsheet()-presentation(), LibreOffice, WPS, TeX
 26. Bootable-Tools: UnetBootIn
 27. Image-Viewer: feh(view)/gimp(edit, crop, etc...)(KISS), gThumb, Shotwell, Nomacs
 28. ShareFiles: Kde-Connect, Primitiveftpd(in Android) and nemo (as ftp client in linux), Send Any Where
