@@ -7,7 +7,7 @@ im2. Windows-Manager: i3wm, dwm, openbox, Muffin
 4. File-Manager: Ranger, Nemo, Nautilus, midnight commander(mc)
 5. Shell: ZSH
 6. Video-Player: MPV, DeepinMovie
-7. Music-Player: mpd/mpc/Cantata, mpd/mpc/ncmpcpp(KISS), Lollypop, Pantheon-Music, Rhthmbox, DeepinMusic, Qoud Libet
+7. Music-Player: mpd/mpc/Cantata, mpd/mpc/ncmpcpp(KISS), Lollypop, Pantheon-Music, Ryhthmbox, DeepinMusic
 8. Music Stream app: Cantata, Auryo, google-musicmanager, Soundnode, spotify
 8. Text-Editor: Vim, NotepaddQQ, VSCode
 9. Terminal-Text-Editor: Vim
