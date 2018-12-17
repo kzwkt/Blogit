@@ -2,14 +2,14 @@
 ## General
 
 1. Desktop-Environment: Gnome, Cinnamon, Deepin
-2. Windows-Manager: i3wm, dwm, openbox, Muffin
+im2. Windows-Manager: i3wm, dwm, openbox, Muffin
 3. Display-Manager: GDM, lightdm(lightdm-webkit2-greeter as greeter), SDDM, None(start with startx command)
 4. File-Manager: Ranger, Nemo, Nautilus, midnight commander(mc)
 5. Shell: ZSH
 6. Video-Player: MPV, DeepinMovie
-7. Music-Player: mpd/mpc/Cantata, mpd/mpc/ncmpcpp(KISS), Lollypop, Pantheon-Music, Rhthmbox, DeepinMusic, Qoud Libet
+7. Music-Player: mpd/mpc/Cantata, mpd/mpc/ncmpcpp(KISS), Lollypop, Pantheon-Music, Ryhthmbox, DeepinMusic
 8. Music Stream app: Cantata, Auryo, google-musicmanager, Soundnode, spotify
-8. Text-Editor: VSCode
+8. Text-Editor: Vim, NotepaddQQ, VSCode
 9. Terminal-Text-Editor: Vim
 10. System-Monitor: Gnulium, Stacer, QPS
 11. Browser: FireFox, qutebrowser, GoogleChrome
@@ -18,7 +18,7 @@
 14. Download-Manager: Persepolise, YoutubeDl
 15. Dock-App: Docky, Plank
 16. Terminal: Konsole, urxvt, Termite, Tilix, DeepinTerminal, GnomeTerminal
-17. Archive-Manager: FileRoller, nemo-Fileroller, Peazip, nemo-peazip
+17. Archive-Manager: atool, FileRoller, nemo-Fileroller, Peazip, nemo-peazip
 18. Audio-Video-Converter: HandBrake, MkvToolNix, OpenShot
 19. ScreenRecorder: VokoScreen, SimpleScreenRecorder
 20. ScreenCapture: gnomeScreenshot
@@ -26,14 +26,14 @@
 22. PartitionManager: Gparted
 23. NoteTools: Vim+Tmux(KISS!), QOwnNotes
 24. Virtualization: Virtual Box
-25. Office: LibreOffice, WPS, TeX
+25. Office: word-processor(vim+vscode+pandoc+mardkown+LaTeX)-spreadsheet(sc-im)-presentation(latex), LibreOffice, WPS, TeX
 26. Bootable-Tools: UnetBootIn
 27. Image-Viewer: feh(view)/gimp(edit, crop, etc...)(KISS), gThumb, Shotwell, Nomacs
 28. ShareFiles: Kde-Connect, Primitiveftpd(in Android) and nemo (as ftp client in linux), Send Any Where
 29. Remote-Desktop: AnyDesk, Team Viewer
 30. BlueTooth-Manager: Blueman
 31. WebCam-Capture: Cheese
-32. Finder: FSearch
+32. Finder: fzf, FSearch 
 33. ClipBoard-Manager: Parcellite, CopyQ
 34. RSS.Reader: Greg, FeedReader
 35. Video editing tools: Kdenlive
@@ -63,12 +63,12 @@
 2. Java: IntelliJ, Eclipse
 3. Android: AndroidStudio
 4. Android-Emulator: Anbox, GenyMotion
-5. Python: VSCode, Pycharm
-6. html-css-javascript: VSCode
-7. C++: QtCreator, VSCode, Vim, Clion
+5. Python: Vim, VSCode, Pycharm
+6. html-css-javascript: Vim, VSCode
+7. C++: QtCreator, Vim, VSCode, Vim, Clion
 8. Sqlite-MySql: Dbeaver, DataGrip
 9. Qt: Qt Creator
-10. C#: VSCode, MonoDevelope, Rider
+10. C#: Vim, VSCode, MonoDevelope, Rider
 11. AVR IDE: Cross Studio
 12. Uml Tools: Umple, StarUML, Umbrello, Modelio
 13. CodeGenerator: Afarinesh, Umple
@@ -106,11 +106,15 @@
 7. gnome-shell-extension-topicons-plus-huttli-git
 
 ## Icon-Theme
+0. Newaita-icons-git
 1. Osx-Arc-Shadow(Windows Border, Desktop)
 2. Papirus icon theme(Icons)
 3. Paper(Mouse Pointer)
-4. arc-solid-gtk-theme(Controls)
-5. deepin-gtk-theme
+4. Ac-solid-gtk-theme(Controls)
+5. Deepin-gtk-theme
+6. Breeze
+7. Breeze-gtk
+8. Breeze-icons
 
 ## Fonts
 1. awesome-terminal-fonts
