@@ -1,0 +1,21 @@
+pane	0	0	:python	1	:*	0	:/home/linarcx/.config/nvim	1	python	:/usr/bin/python -O /sbin/ranger
+pane	0	1	:zsh	0	:	0	:/mnt/D/Document/Notes	1	zsh	:
+pane	0	2	:zsh	0	:	0	:/mnt/D/Document/WorkSpace/Other/Blogit	1	zsh	:
+pane	0	3	:zsh	0	:	0	:/mnt/D/Document/WorkSpace/Qt/Project/Gnulium	1	zsh	:
+pane	0	4	:zsh	0	:	0	:/mnt/D/Document/WorkSpace/Qt/Project/Afarinesh	1	zsh	:
+pane	0	5	:zsh	0	:	0	:/mnt/D/Document/WorkSpace/C++	1	zsh	:
+pane	0	6	:zsh	0	:	0	:/mnt/E/Downloads/Video/YouTube	1	zsh	:
+pane	0	7	:zsh	0	:-	0	:/home/linarcx	1	zsh	:
+pane	1	0	:zsh	1	:*	0	:/home/linarcx	1	zsh	:
+pane	2	0	:zsh	1	:*	0	:/home/linarcx	1	zsh	:
+window	0	0	1	:*	c9fe,149x37,0,0,1
+window	0	1	0	:	c9ff,149x37,0,0,2
+window	0	2	0	:	ca00,149x37,0,0,3
+window	0	3	0	:	ca01,149x37,0,0,4
+window	0	4	0	:	ca02,149x37,0,0,5
+window	0	5	0	:	ca03,149x37,0,0,6
+window	0	6	0	:	ca04,149x37,0,0,7
+window	0	7	0	:-	ca05,149x37,0,0,8
+window	1	0	1	:*	ca06,149x37,0,0,9
+window	2	0	1	:*	652f,149x37,0,0,10
+state	0	2

@@ -1,0 +1,21 @@
+pane	0	0	:zsh	1	:*	0	:/home/linarcx	1	zsh	:
+pane	0	1	:zsh	0	:-	0	:/mnt/D/Document/Notes	1	zsh	:
+pane	0	2	:zsh	0	:	0	:/mnt/D/Document/WorkSpace/Other/Blogit	1	zsh	:
+pane	0	3	:zsh	0	:	0	:/mnt/D/Document/WorkSpace/Qt/Project/Gnulium	1	zsh	:
+pane	0	4	:zsh	0	:	0	:/mnt/D/Document/WorkSpace/Qt/Project/Afarinesh	1	zsh	:
+pane	0	5	:zsh	0	:	0	:/mnt/D/Document/WorkSpace/Qt/Project/Chakavak	1	zsh	:
+pane	0	6	:zsh	0	:	0	:/mnt/E/Downloads/Video/YouTube	1	zsh	:
+pane	0	7	:zsh	0	:	0	:/home/linarcx	1	zsh	:
+pane	1	0	:zsh	1	:*	0	:/home/linarcx	1	zsh	:
+pane	2	0	:zsh	1	:*	0	:/home/linarcx	1	zsh	:
+window	0	0	1	:*	d1fe,168x39,0,0,1
+window	0	1	0	:-	d1ff,168x39,0,0,2
+window	0	2	0	:	d200,168x39,0,0,3
+window	0	3	0	:	d201,168x39,0,0,4
+window	0	4	0	:	d202,168x39,0,0,5
+window	0	5	0	:	d203,168x39,0,0,6
+window	0	6	0	:	d204,168x39,0,0,7
+window	0	7	0	:	d205,168x39,0,0,8
+window	1	0	1	:*	d206,168x39,0,0,9
+window	2	0	1	:*	692f,168x39,0,0,10
+state	0	2

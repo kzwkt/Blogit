@@ -1,0 +1,23 @@
+pane	0	0	:zsh	0	:	0	:/mnt/D/Notes	1	zsh	:
+pane	0	1	:zsh	0	:	0	:/mnt/D/Document/WorkSpace/Other/Blogit	1	zsh	:
+pane	0	2	:zsh	0	:	0	:/mnt/D/Document/WorkSpace/Qt/Project/Taghvim	1	zsh	:
+pane	0	3	:zsh	0	:	0	:/mnt/D/Document/WorkSpace/Qt/Project/Gnulium	1	zsh	:
+pane	0	4	:zsh	0	:	0	:/mnt/D/Document/WorkSpace/Qt/Project/Chakavak	1	zsh	:
+pane	0	5	:zsh	0	:-	0	:/mnt/E/Downloads/Video	1	zsh	:
+pane	0	6	:zsh	0	:	0	:/mnt/D/Document/WorkSpace/Qt/Project/OpenGLinarcx	1	zsh	:
+pane	0	7	:zsh	0	:	0	:/mnt/D/Document/WorkSpace/Qt/Project/Afarinesh	1	zsh	:
+pane	0	8	:zsh	1	:*	0	:/home/linarcx	1	zsh	:
+pane	1	0	:zsh	1	:*	0	:/home/linarcx	1	zsh	:
+pane	2	0	:zsh	1	:*	0	:/home/linarcx	1	zsh	:
+window	0	0	0	:	cc7e,169x47,0,0,1
+window	0	1	0	:	cc7f,169x47,0,0,2
+window	0	2	0	:	cc80,169x47,0,0,3
+window	0	3	0	:	cc81,169x47,0,0,4
+window	0	4	0	:	cc82,169x47,0,0,5
+window	0	5	0	:-	cc83,169x47,0,0,6
+window	0	6	0	:	cc84,169x47,0,0,7
+window	0	7	0	:	cc85,169x47,0,0,8
+window	0	8	1	:*	cc86,169x47,0,0,9
+window	1	0	1	:*	666f,169x47,0,0,10
+window	2	0	1	:*	6670,169x47,0,0,11
+state	0	2
