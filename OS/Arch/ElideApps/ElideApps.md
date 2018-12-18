@@ -2,30 +2,30 @@
 ## General
 
 1. Desktop-Environment: Gnome, Cinnamon, Deepin
-im2. Windows-Manager: i3wm, dwm, openbox, Muffin
-3. Display-Manager: GDM, lightdm(lightdm-webkit2-greeter as greeter), SDDM, None(start with startx command)
-4. File-Manager: Ranger, Nemo, Nautilus, midnight commander(mc)
-5. Shell: fish, ZSH
-6. Video-Player: MPV, DeepinMovie
-7. Music-Player: mpd/mpc/Cantata, mpd/mpc/ncmpcpp(KISS), Lollypop, Pantheon-Music, Ryhthmbox, DeepinMusic
-8. Music Stream app: Cantata, Auryo, google-musicmanager, Soundnode, spotify
-8. Text-Editor: Vim, NotepaddQQ, VSCode
-9. Terminal-Text-Editor: Vim
-10. System-Monitor: Gnulium, Stacer, QPS
-11. Browser: FireFox, qutebrowser, GoogleChrome
-12. PDF-Viewer: zathura, zathura-pdf-mupdf, Okular(ebook-tools for ebooks support)
-13. BitTorrent-Client: Deluge
-14. Download-Manager: Persepolise, YoutubeDl
-15. Dock-App: Docky, Plank
+2. Windows Manager: i3wm, dwm, openbox, Muffin
+3. Display Manager: GDM, lightdm(lightdm-webkit2-greeter as greeter), SDDM, None(start with startx command)
+4. File Manager: Ranger, Nemo, Nautilus, midnight commander(mc)
+5. Shell: Fish, ZSH
+6. Video Player: MPV, DeepinMovie
+7. Music Player: mpd/mpc/Cantata, mpd/mpc/ncmpcpp(KISS), Lollypop, Pantheon-Music, Ryhthmbox, DeepinMusic
+8. Music Stream App: Cantata, Auryo, google-musicmanager, Soundnode, spotify
+8. Text Editor: Vim, NotepaddQQ, VSCode
+9. Terminal Text Editor: NeoVim
+10. System Monitor: Gnulium, Stacer, QPS
+11. Browser: Qutebrowser, FireFox, GoogleChrome
+12. PDF Viewer: Zathura, zathura-pdf-mupdf, Okular(ebook-tools for ebooks support)
+13. BitTorrent Client: Deluge
+14. Download Manager: Persepolise, YoutubeDl
+15. Dock App:  Plank, Docky
 16. Terminal: Konsole, urxvt, Termite, Tilix, DeepinTerminal, GnomeTerminal
-17. Archive-Manager: atool, FileRoller, nemo-Fileroller, Peazip, nemo-peazip
-18. Audio-Video-Converter: HandBrake, MkvToolNix, OpenShot
+17. Archive Manager: Atool, FileRoller, nemo-Fileroller, Peazip, nemo-peazip
+18. Audio Video Converter: HandBrake, MkvToolNix, OpenShot
 19. ScreenRecorder: VokoScreen, SimpleScreenRecorder
-20. ScreenCapture: gnomeScreenshot
-21. Calculator: Use Python(KISS!), GnomeCalculator, SpeedCrunch, LiriCalculator, Galculator, Kcalc, DeepinCalculator
-22. PartitionManager: Gparted
+20. ScreenCapture: GnomeScreenshot
+21. Calculator: Python(KISS!), GnomeCalculator, SpeedCrunch, LiriCalculator, Galculator, Kcalc, DeepinCalculator
+22. Partition Manager: Gparted
 23. NoteTools: Vim+Tmux(KISS!), QOwnNotes
-24. Virtualization: Virtual Box
+24. Virtualization: Virtual Box, Qemu
 25. Office: word-processor(vim+vscode+pandoc+mardkown+LaTeX)-spreadsheet(sc-im)-presentation(latex), LibreOffice, WPS, TeX
 26. Bootable-Tools: UnetBootIn
 27. Image-Viewer: feh(view)/gimp(edit, crop, etc...)(KISS), gThumb, Shotwell, Nomacs
