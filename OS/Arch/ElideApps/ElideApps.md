@@ -5,7 +5,7 @@
 im2. Windows-Manager: i3wm, dwm, openbox, Muffin
 3. Display-Manager: GDM, lightdm(lightdm-webkit2-greeter as greeter), SDDM, None(start with startx command)
 4. File-Manager: Ranger, Nemo, Nautilus, midnight commander(mc)
-5. Shell: ZSH
+5. Shell: fish, ZSH
 6. Video-Player: MPV, DeepinMovie
 7. Music-Player: mpd/mpc/Cantata, mpd/mpc/ncmpcpp(KISS), Lollypop, Pantheon-Music, Ryhthmbox, DeepinMusic
 8. Music Stream app: Cantata, Auryo, google-musicmanager, Soundnode, spotify
