@@ -1,6 +1,6 @@
 ### Open Any directory in ranger
 You should do some tricks :) let's get startd:
-1. First you have to install these dependencies: __wmctrl__ and __xdotool__.(first for jump between windwos and second to emulate keyboard shortcuts)
+1. First you have to install some dependencies: __wmctrl__, __xdotool__ and __xdg-util__.(first for jump between windwos and second to emulate keyboard shortcuts and third for set defalut applications)
 2. Create a __.desktop__ file. because inode directory look at this files.and put it in the: __~/.local/share/applications__ directory.(i called it: opener.desktop)
 3. Put these lines into that file:
 ```
