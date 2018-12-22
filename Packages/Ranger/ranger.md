@@ -28,3 +28,5 @@ wmctrl -a Ranger; sleep 1 && xdotool key Control_L+n && xdotool key Shift+\: && 
 9. Now you can open directories in everywhere exists option like: "Open folder", "Show containg folder", ...
 10. Enjoy the automation :) 
 
+### More informations
+1. [how-to-specify-default-applications](https://linuxcommando.blogspot.com/2014/03/how-to-specify-default-applications-for.html)
