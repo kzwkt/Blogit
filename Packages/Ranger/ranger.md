@@ -1,4 +1,4 @@
-### Open Any directory in ranger
+### Automatically grap inode/directory and open it in ranger
 You should do some tricks :) let's get startd:
 1. First you have to install some dependencies: __wmctrl__, __xdotool__ and __xdg-util__.(first for jump between windwos and second to emulate keyboard shortcuts and third for set defalut applications)
 2. Create a __.desktop__ file. because inode directory look at this files.and put it in the: __~/.local/share/applications__ directory.(i called it: opener.desktop)
