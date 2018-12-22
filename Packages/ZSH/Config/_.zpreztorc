@@ -1,0 +1,11 @@
+# Prompt
+# Set the prompt theme to load.
+# Setting it to 'random' loads a random theme.
+# Auto set to 'off' on dumb terminals.
+# Favorites: kylewest, nicoulaj, fade, fire, pure, minimal, adam2, bart, damoekri
+zstyle ':prezto:module:prompt' theme 'minimal'
+#zstyle ':prezto:module:prompt' pwd-length 'short'
+#zstyle ':prezto:module:prompt' show-return-val 'no'
+#zstyle ':prezto:load' pmodule-dirs ~/.zprezto/modules/prompt/functions/
+#zstyle ':prezto:load' pmodule \
+#                      git
