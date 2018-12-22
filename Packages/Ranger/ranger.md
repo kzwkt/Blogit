@@ -26,5 +26,5 @@ wmctrl -a Ranger; sleep 1 && xdotool key Control_L+n && xdotool key Shift+\: && 
 8. Sure evertything setup correctly:
 `xdg-mime query default inode/directory`
 9. Now you can open directories in everywhere exists option like: "Open folder", "Show containg folder", ...
-10. Enjoy the automation :)
+10. Enjoy the automation :) 
 
