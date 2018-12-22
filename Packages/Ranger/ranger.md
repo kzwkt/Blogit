@@ -28,3 +28,38 @@ wmctrl -a Ranger; sleep 1 && xdotool key Control_L+n && xdotool key Shift+\: && 
 9. Now you can open directories in everywhere exists option like: "Open folder", "Show containg folder", ...
 10. Enjoy the automation :)
 
+### Encrypt and Decrypt files
+1. First add these functions into your __.bashrc__:
+```
+enc(){
+if [ -z "$1" ]; then
+    (>&2 echo "ERROR: No file provided!")
+else
+    gpg --cipher-algo AES256 -o $1.gpg -c $1 && rm $1 && echo "File encrypted and original File Deleted!";
+    gpg -e -r $USER $1 && rm -rf $1 || echo "Error, $1 did not encrypt!";
+fi
+}
+export -f enc
+
+dec(){
+if [ -z "$1" ];then
+    (>&2 echo "ERROR: No file provided!")
+else
+    gpg $1 && rm -rf $1 || echo "Error, $1 did not decrypt!";
+fi
+}
+export -f dec
+```
+2. Open your __rc.conf__ file and this these lines into it:
+```
+map be  eval fm.open_console('shell enc ' + fm.thisfile.relative_path.replace("%", "%%"))
+map bd  eval fm.open_console('shell dec ' + fm.thisfile.relative_path.replace("%", "%%"))
+```
+
+### Mount Android Device:
+Add these lines into __rc.confi__ file:
+```
+map bm  shell aft-mtp-mount ~/myDevice/
+map bu  shell sudo umount ~/myDevice/
+```
+
