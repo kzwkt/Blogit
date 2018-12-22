@@ -1,6 +1,6 @@
-### Open Any directory in ranger
+### Automatically grap inode/directory and open it in ranger
 You should do some tricks :) let's get startd:
-1. First you have to install these dependencies: __wmctrl__ and __xdotool__.(first for jump between windwos and second to emulate keyboard shortcuts)
+1. First you have to install some dependencies: __wmctrl__, __xdotool__ and __xdg-util__.(first for jump between windwos and second to emulate keyboard shortcuts and third for set defalut applications)
 2. Create a __.desktop__ file. because inode directory look at this files.and put it in the: __~/.local/share/applications__ directory.(i called it: opener.desktop)
 3. Put these lines into that file:
 ```
@@ -13,7 +13,7 @@ Exec=/usr/bin/opener.sh %U
 Icon=utilities-terminal
 MimeType=inode/directory;
 ```
-4. You see in the __Exec__ node you have to specify a shell script(all magic function come in this file!)
+4. You see in the __Exec__ part, you have to specify a shell script(all magic function come in this file!)
 5. Create opener.sh in __/usr/bin__ directory and set it as executable.(`chmod +x /usr/bin/opener.sh`)
 6. Paste These lines into that:
 ```
@@ -26,8 +26,9 @@ wmctrl -a Ranger; sleep 1 && xdotool key Control_L+n && xdotool key Shift+\: && 
 8. Sure evertything setup correctly:
 `xdg-mime query default inode/directory`
 9. Now you can open directories in everywhere exists option like: "Open folder", "Show containg folder", ...
-10. Enjoy the automation :)
+10. Enjoy the automation :) 
 
+<<<<<<< HEAD
 ### Encrypt and Decrypt files
 1. First add these functions into your __.bashrc__:
 ```
@@ -63,3 +64,7 @@ map bm  shell aft-mtp-mount ~/myDevice/
 map bu  shell sudo umount ~/myDevice/
 ```
 
+=======
+### More informations
+1. [how-to-specify-default-applications](https://linuxcommando.blogspot.com/2014/03/how-to-specify-default-applications-for.html)
+>>>>>>> 4abc807aff7fc5bd7b0e388b659465b35a8b37af
