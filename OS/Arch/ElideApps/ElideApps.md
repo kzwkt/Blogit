@@ -3,9 +3,9 @@
 
 1. Desktop-Environment: Gnome, Cinnamon, Deepin
 2. Windows Manager: i3wm, dwm, openbox, Muffin
-3. Display Manager: GDM, lightdm(lightdm-webkit2-greeter as greeter), SDDM, None(start with startx command)
+3. Display Manager: Ly, GDM, lightdm(lightdm-webkit2-greeter as greeter), SDDM, None(start with startx command)
 4. File Manager: Ranger, Nemo, Nautilus, midnight commander(mc)
-5. Shell: Fish, ZSH
+5. Shell: Bash, Fish, ZSH
 6. Video Player: MPV, DeepinMovie
 7. Music Player: mpd/mpc/Cantata, mpd/mpc/ncmpcpp(KISS), Lollypop, Pantheon-Music, Ryhthmbox, DeepinMusic
 8. Music Stream App: Cantata, Auryo, google-musicmanager, Soundnode, spotify
@@ -23,16 +23,16 @@
 19. ScreenRecorder: VokoScreen, SimpleScreenRecorder
 20. ScreenCapture: GnomeScreenshot
 21. Calculator: Python(KISS!), GnomeCalculator, SpeedCrunch, LiriCalculator, Galculator, Kcalc, DeepinCalculator
-22. Partition Manager: Gparted
+22. Partition Manager: Parted, Gparted
 23. NoteTools: Vim+Tmux(KISS!), QOwnNotes
 24. Virtualization: Virtual Box, Qemu
 25. Office: word-processor(vim+vscode+pandoc+mardkown+LaTeX)-spreadsheet(sc-im)-presentation(latex), LibreOffice, WPS, TeX
-26. Bootable-Tools: UnetBootIn
-27. Image-Viewer: feh(view)/gimp(edit, crop, etc...)(KISS), gThumb, Shotwell, Nomacs
+26. Bootable Tools: UnetBootIn
+27. Image Viewer: feh(view)/gimp(edit, crop, etc...)(KISS), gThumb, Shotwell, Nomacs
 28. ShareFiles: Kde-Connect, Primitiveftpd(in Android) and nemo (as ftp client in linux), Send Any Where
-29. Remote-Desktop: AnyDesk, Team Viewer
-30. BlueTooth-Manager: Blueman
-31. WebCam-Capture: Cheese
+29. Remote Desktop: AnyDesk, Team Viewer
+30. BlueTooth Manager: Blueman
+31. WebCam Capture: Cheese
 32. Finder: fzf, FSearch 
 33. ClipBoard-Manager: Parcellite, CopyQ
 34. RSS.Reader: Greg, FeedReader
