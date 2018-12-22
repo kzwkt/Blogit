@@ -13,7 +13,7 @@ Exec=/usr/bin/opener.sh %U
 Icon=utilities-terminal
 MimeType=inode/directory;
 ```
-4. You see in the __Exec__ node you have to specify a shell script(all magic function come in this file!)
+4. You see in the __Exec__ part, you have to specify a shell script(all magic function come in this file!)
 5. Create opener.sh in __/usr/bin__ directory and set it as executable.(`chmod +x /usr/bin/opener.sh`)
 6. Paste These lines into that:
 ```
